@@ -94,6 +94,20 @@ const afeef = {
 
 ---
 
+## Contribution snake
+
+Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerated every six hours via [`.github/workflows/snake.yml`](.github/workflows/snake.yml) (SVGs live on the `output` branch).
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+</div>
+
+---
+
 ## Quick tech overview
 
 I work across **full-stack web**, **APIs**, and **AI/ML**. On the client I use **HTML**, **CSS**, and **JavaScript**. On the server I build with **Java**, **JavaScript**, **Python**, and **Django**, exposing well-structured **REST APIs**. For **AI infrastructure** I integrate **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, and **Hugging Face**. For **machine learning & data science** I reach for **pandas**, **scikit-learn**, **OpenCV**, and **PyTorch**. Data tends to live in **PostgreSQL** (with **pgvector** where embeddings matter), **MySQL**, and **Pinecone** for vector search. I operate services with **Docker**, **Kubernetes**, **GitHub Actions**, and **Git**; day-to-day I use **VS Code**, **Postman**, and **Notion**; deployments and managed services lean on **Google Cloud** and **AWS**.
