@@ -5,8 +5,8 @@ This folder holds **static assets** for [`Afeef-crypto/Afeef-crypto`](https://gi
 | Path | Purpose |
 |------|--------|
 | `banners/` | **`profile-peek-banner.gif`** — animated peek loop (bob motion). The build script recolors the PNG’s teal/navy backdrop to **black + dark red** to match the profile README, then quantizes to GIF. |
-| `cards/` | **LeetCode** SVGs (`lc_main.svg`, `lc_contests.svg`) — regenerate via [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml) (manual only; README no longer embeds them by default). |
-| `snake/` | **Contribution snake** assets (`*.gif`, `*.svg`) from [`.github/workflows/snake.yml`](../.github/workflows/snake.yml), committed to **`main`**. README embeds the **GIF** via a repo-relative path (works in repo + profile). Run **Actions → Generate contribution snake** to refresh. **Workflow permissions** → **Read and write**. |
+| `cards/` | **LeetCode** SVGs (`lc_main.svg`, `lc_contests.svg`). README embeds them via **`raw.githubusercontent.com/.../main/assets/cards/...`** so the blob preview shows images. Refreshed by [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml). |
+| `snake/` | **Contribution snake** assets (`*.gif`, `*.svg`) from [`.github/workflows/snake.yml`](../.github/workflows/snake.yml). README uses **`raw.githubusercontent.com/.../main/assets/snake/...gif`** for reliable blob + profile rendering. **Workflow permissions** → **Read and write**. |
 
 ### Peek banner GIF
 
