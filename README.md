@@ -43,15 +43,18 @@
 CS undergraduate focused on turning ideas into working software. Based in **Hyderabad, India**, I build **production-grade RAG & vector retrieval**, **AI orchestration**, and **multi-model evaluation** infrastructure.
 
 ---
+
+## `whoami`
+
 ```ts
 const afeef = {
-      name: "Mohammed Afeefuddin",
-      role: ["Tech Co-founder @ RoundtableCI", "Lead Engineer @ CloveCI"],
-      location: "Hyderabad, Telangana, India",
-      education: "B.E. Computer Science — MJCET (2023 – 2027)",
-      domains: ["AI systems", "RAG pipelines", "Vector DBs", "Backend & product"],
-      currently: "Y Combinator W'25 and S26 applicant",
-      focus: ["Product engineering", "Startup execution", "Algorithms & problem solving"],
+  name: "Mohammed Afeefuddin",
+  role: ["Tech Co-founder @ RoundtableCI", "Lead Engineer @ CloveCI"],
+  location: "Hyderabad, Telangana, India",
+  education: "B.E. Computer Science — MJCET (2023 – 2027)",
+  domains: ["AI systems", "RAG pipelines", "Vector DBs", "Backend & product"],
+  currently: "Y Combinator W'25 and S26 applicant",
+  focus: ["Product engineering", "Startup execution", "Algorithms & problem solving"],
 };
 ```
 
