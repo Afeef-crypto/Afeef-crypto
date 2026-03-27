@@ -2,13 +2,30 @@
 <img src="assets/banners/profile-peek-banner.gif" alt="Mohammed Afeefuddin" width="640" />
 </div>
 
+<!-- AFEEF-CRYPTO — PROFILE README · name tag pattern after github.com/Morizz00/Morizz00 -->
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1e3a5f,70:0e7490,100:22d3ee&height=200&section=header&text=Mohammed%20Afeefuddin&fontSize=52&fontColor=e0f2fe&animation=twinkling&fontAlignY=32&desc=Tech%20Co-founder%20Engineer%20%E2%80%A2%20CS%20%40%20MJCET%20%E2%80%A2%20Hyderabad&descAlignY=54&descSize=16&descColor=67e8f9" width="100%"/>
+
+<pre>
+ █████╗ ███████╗███████╗███████╗███████╗
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝
+███████║█████╗  █████╗  █████╗  █████╗  
+██╔══██║██╔══╝  ██╔══╝  ██╔══╝  ██╔══╝  
+██║  ██║██║     ██║     ███████╗███████╗
+╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚══════╝
+</pre>
+
+<h3>Tech Co-founder Engineer · AI systems & backends · CS @ MJCET · Hyderabad</h3>
+
 </div>
 
 <div align="center">
 
-<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=620&height=28&lines=Building+products+at+CloveCI;Co-founder+engineer+%E2%80%94+ship+learn+iterate;Data+Structures+%26+Algorithms+%7C+GDG+On+Campus;B.E.+Computer+Science+%40+Muffakham+Jah+College" alt="Typing SVG" /></a>
+```
+ ░▒▓█  ROUNDTABLECI · CLOVECI · pgvector · LANGCHAIN · HYDERABAD  █▓▒░
+```
+
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2600&pause=650&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+AI-native+product+%40+RoundtableCI;Lead+engineer+%40+CloveCI+%E2%80%94+ship+learn+iterate;PostgreSQL+%2B+pgvector+%2B+Django+%2B+FastAPI+%2B+REST;GRADE%3A+CV+%2B+Sentence-BERT+%2B+automated+grading;YC+W%2725+%2F+S%2726+applicant+%C2%B7+MJCET+%C2%B7+GDG+DSA+core" alt="Hero typing SVG" /></a>
 
 <br/>
 
@@ -70,7 +87,7 @@ Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform wo
 ### GRADE
 **Automated handwritten answer sheet grading**
 
-CV + NLP pipeline: ingest scanned sheets, segment questions, multi-tier OCR (cloud → PaddleOCR → TrOCR), then **Sentence-BERT** semantic scoring for partial credit and paraphrasing. **FastAPI** backend, **React** dashboard with overlays, **PDF** reports — academic mini project @ MJCET.
+CV + NLP pipeline: ingest scanned sheets, segment questions, multi-tier OCR (cloud → PaddleOCR → TrOCR), then **Sentence-BERT** semantic scoring for partial credit and paraphrasing. **FastAPI** backend, **web dashboard** with score overlays, **PDF** reports — academic mini project @ MJCET.
 
 - [github.com/Afeef-crypto/GRADE](https://github.com/Afeef-crypto/GRADE)
 
@@ -157,15 +174,17 @@ Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerate
 
 ## Quick tech overview
 
-I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**, **JavaScript**, **React**. On the server: **Python** (**Django**, **FastAPI**), **Java**, and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch** — including **GRADE**, where CV + **Sentence-BERT** meet **FastAPI** and **React**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
+I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**, **JavaScript**. On the server: **Python** (**Django**, **FastAPI**), **Java**, and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch** — including **GRADE**, where CV + **Sentence-BERT** meet **FastAPI** and a **web dashboard**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
 
 ---
 
 ## Tech stack
 
+Rich section layout inspired by animated readme profiles — **capsule-render** headers, **typing SVG** lines, **Tech Stack Generator** icons, and **GIF** dividers (see [phero20](https://github.com/phero20/phero20) / [Morizz00](https://github.com/Morizz00/Morizz00)). Peek GIF rebuild: [`.github/workflows/build-peek-gif.yml`](.github/workflows/build-peek-gif.yml).
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2400&pause=600&color=22D3EE&center=true&vCenter=true&width=560&lines=Languages+%26+web;Backend+%2B+REST+APIs;AI+%2B+ML+%2B+data;Cloud+%2B+DevOps+%2B+tools" alt="Tech sections" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2200&pause=550&color=22D3EE&center=true&vCenter=true&width=620&lines=Full+arsenal+below+%E2%86%93;Languages+%C2%B7+backends+%C2%B7+AI+%C2%B7+ML+%C2%B7+data+%C2%B7+DevOps+%C2%B7+cloud" alt="Tech stack intro typing" />
 
 <br/>
 
@@ -174,40 +193,62 @@ I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**
 <img src="https://techstack-generator.vercel.app/java-icon.svg" width="68" height="68" alt="Java" />
 <img src="https://techstack-generator.vercel.app/python-icon.svg" width="68" height="68" alt="Python" />
 <img src="https://techstack-generator.vercel.app/js-icon.svg" width="68" height="68" alt="JavaScript" />
-<img src="https://techstack-generator.vercel.app/react-icon.svg" width="68" height="68" alt="React" />
 <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="68" height="68" alt="Docker" />
 <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="68" height="68" alt="Kubernetes" />
 <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="68" height="68" alt="MySQL" />
 <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="68" height="68" alt="AWS" />
+<img src="https://techstack-generator.vercel.app/github-icon.svg" width="68" height="68" alt="GitHub" />
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,25:111827,50:1f2937,75:1e3a5f,100:0f766e&height=92&section=header&text=%E2%9F%A8%20LANGUAGES%20%26%20WEB%20%E2%9F%A9&fontSize=22&fontColor=5EEAD4&animation=fadeIn&fontAlignY=25" width="100%"/>
 
 ### Languages & web
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,java,python,javascript,html,css,react&theme=dark&perline=7" alt="Languages and web" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=5EEAD4&center=true&vCenter=true&width=560&lines=C+%C2%B7+Java+%C2%B7+Python+%C2%B7+JavaScript+%C2%B7+HTML+%C2%B7+CSS;Vanilla+web+%2B+strong+typed+habits+%F0%9F%94%A7" alt="Languages typing" />
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=c,java,python,javascript,html,css&theme=dark&perline=6" alt="Languages and web" />
 
 </div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:00020a,10:01030a,20:020617,32:050a1a,44:0b1220,56:0f172a,68:172554,80:1e293b,90:1e3a8a,100:0e7490&text=%E2%9F%A8%20BACKEND%20%26%20APIS%20%E2%9F%A9&section=header&reversal=true&fontAlign=12&fontAlignY=42&animation=scaleIn&fontSize=22&fontColor=22D3EE" width="100%"/>
 
 ### Backend & APIs
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=22D3EE&center=true&vCenter=true&width=560&lines=Java+%C2%B7+Python+%C2%B7+Django+%C2%B7+FastAPI+%C2%B7+REST;JavaScript+where+the+stack+needs+it" alt="Backend typing" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=java,python,django,fastapi&theme=dark&perline=4" alt="Backend" />
 
 <br/>
 
 ![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript_backend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03010a,10:07030f,20:0f061d,32:140b2a,44:1e1b4b,56:2e1065,68:3b0764,80:4c1d95,90:581c87,100:6366f1&height=92&section=header&text=%E2%9F%A8%20AI%20INFRASTRUCTURE%20%E2%9F%A9&fontSize=22&fontColor=E9D5FF&animation=twinkling&fontAlignY=25" width="100%"/>
 
 ### AI infrastructure
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2100&pause=520&color=E9D5FF&center=true&vCenter=true&width=620&lines=OpenAI+%C2%B7+Claude+%C2%B7+Gemini+%C2%B7+LangChain+%C2%B7+Hugging+Face;Models+in+production%2C+not+just+notebooks" alt="AI typing" />
+
+<br/>
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge)
@@ -217,9 +258,17 @@ I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:052e16,25:065f46,50:0f766e,75:14b8a6,100:5eead4&text=%E2%9F%A8%20ML%20%26%20DATA%20SCIENCE%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=42&animation=scaleIn&fontSize=20&fontColor=ECFEFF" width="100%"/>
+
 ### Machine learning & data science
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=5EEAD4&center=true&vCenter=true&width=600&lines=PyTorch+%C2%B7+OpenCV+%C2%B7+pandas+%C2%B7+scikit-learn;CV+%2B+embeddings+%2B+classic+ML" alt="ML typing" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark&perline=6" alt="PyTorch and OpenCV" />
 
@@ -230,9 +279,17 @@ I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,25:1e3a5f,50:0e7490,75:0891b2,100:22d3ee&height=92&section=header&text=%E2%9F%A8%20DATABASES%20%26%20VECTORS%20%E2%9F%A9&fontSize=21&fontColor=e0f2fe&animation=fadeIn&fontAlignY=25" width="100%"/>
+
 ### Databases & vector search
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1900&pause=480&color=67E8F9&center=true&vCenter=true&width=580&lines=PostgreSQL+%C2%B7+MySQL+%C2%B7+pgvector+%C2%B7+Pinecone;Relational+%2B+vector+in+one+architecture" alt="Data typing" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark&perline=6" alt="Databases" />
 
@@ -243,17 +300,33 @@ I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:7f1d1d,25:991b1b,50:dc2626,75:ef4444,100:fca5a5&text=%E2%9F%A8%20DEVOPS%20%26%20DELIVERY%20%E2%9F%A9&section=header&reversal=true&fontAlign=12&fontAlignY=42&animation=scaleIn&fontSize=22&fontColor=FEE2E2" width="100%"/>
+
 ### DevOps & delivery
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=FCA5A5&center=true&vCenter=true&width=540&lines=Docker+%C2%B7+Kubernetes+%C2%B7+Git+%C2%B7+GitHub+Actions;Ship+with+repeatable+pipelines" alt="DevOps typing" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,githubactions&theme=dark&perline=6" alt="DevOps" />
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:431407,25:7c2d12,50:ca8a04,75:d97706,100:fbbf24&height=88&section=header&text=%E2%9F%A8%20CLOUD%20%E2%9F%A9&fontSize=22&fontColor=FFFBEB&animation=twinkling&fontAlignY=26" width="100%"/>
+
 ### Cloud
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1800&pause=450&color=FBBF24&center=true&vCenter=true&width=480&lines=Google+Cloud+%C2%B7+AWS;Managed+infra+where+it+pays+off" alt="Cloud typing" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=gcp,aws&theme=dark&perline=6" alt="Cloud" />
 
@@ -261,9 +334,17 @@ I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=slice&height=68&color=0:18181b,25:27272a,50:3f3f46,75:52525b,100:a1a1aa&text=%E2%9F%A8%20DEV%20TOOLS%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=40&animation=fadeIn&fontSize=21&fontColor=f4f4f5" width="100%"/>
+
 ### Development tools
 
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1900&pause=480&color=A1A1AA&center=true&vCenter=true&width=520&lines=VS+Code+%C2%B7+Postman+%C2%B7+Notion;Notes%2C+APIs%2C+and+literate+debugging" alt="Tools typing" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=vscode,postman&theme=dark&perline=6" alt="Dev tools" />
 

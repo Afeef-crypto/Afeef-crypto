@@ -15,3 +15,7 @@ The **contribution snake** animations are **not** stored on `main`. They are pro
 `https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg`
 
 After the first workflow run, open **Actions → Generate contribution snake** and confirm it succeeded. If pushes fail, set **Settings → Actions → General → Workflow permissions** to **Read and write**.
+
+### Peek banner GIF
+
+When you replace **`profile-peek-banner.png`**, run [**Build profile peek GIF**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/build-peek-gif.yml) (or let the workflow run on push). It runs [`scripts/build_peek_gif.py`](../scripts/build_peek_gif.py) and commits the updated **`.gif`**.

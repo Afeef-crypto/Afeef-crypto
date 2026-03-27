@@ -1,0 +1,43 @@
+name: Build profile peek GIF
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "assets/banners/profile-peek-banner.png"
+      - "scripts/build_peek_gif.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: peek-gif
+  cancel-in-progress: true
+
+jobs:
+  gif:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow & rebuild GIF
+        run: |
+          pip install pillow
+          python scripts/build_peek_gif.py
+
+      - name: Commit GIF if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/banners/profile-peek-banner.gif
+          if git diff --cached --quiet; then
+            echo "No GIF changes"
+            exit 0
+          fi
+          git commit -m "chore: rebuild profile peek GIF from PNG [skip ci]"
+          git push
