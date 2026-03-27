@@ -1,10 +1,4 @@
 <div align="center">
-<img src="assets/banners/profile-peek-banner.gif" alt="Mohammed Afeefuddin" width="640" />
-</div>
-
-<!-- AFEEF-CRYPTO — PROFILE README · name tag pattern after github.com/Morizz00/Morizz00 -->
-
-<div align="center">
 
 <pre>
 ╔══════════════════════════════════════════════════════════╗
@@ -20,6 +14,9 @@
 </pre>
 
 ### Tech Co-founder Engineer · AI systems & backends · CS @ MJCET · Hyderabad
+
+<div align="center">
+<img src="assets/banners/profile-peek-banner.gif" alt="Mohammed Afeefuddin" width="640" />
 
 </div>
 
@@ -77,7 +74,6 @@ Co-founding engineer on model routing, evaluation, and production backends — *
 [![Status](https://img.shields.io/badge/Status-In%20Development-7f1d1d?style=flat-square)](https://github.com/Afeef-crypto)
 [![YC](https://img.shields.io/badge/YC%20S26-Applicant-FF6600?style=flat-square&logo=ycombinator)](https://www.ycombinator.com)
 
-Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform work.
 
 </td>
 <td width="50%" valign="top">
@@ -99,6 +95,9 @@ Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform wo
 
 A platform where writers publish stories and readers create **forks** (alternate versions). Tracks fork trees, credit attribution, discovery, and AI-assisted writing. Stack highlights: **Vite + React + TypeScript**, **Tailwind + shadcn/ui**, **TipTap** editor, **Go** API gateway, **Node** BFF, **PostgreSQL**, **Redis**, **Pinecone** (embeddings roadmap).
 
+[![Status](https://img.shields.io/badge/Status-In%20Development-7f1d1d?style=flat-square)](https://github.com/Afeef-crypto)
+
+Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform work.
 
 </td>
 <td width="50%" valign="top">
