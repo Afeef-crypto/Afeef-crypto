@@ -12,6 +12,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Afeef--crypto-181717?style=for-the-badge&logo=github)](https://github.com/Afeef-crypto)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Afeefuddin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-afeefuddin-188aa5395/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-mohammed__afeefuddin-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/mohammed_afeefuddin/)
 
 <br/>
 
@@ -91,6 +92,28 @@ const afeef = {
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Afeef-crypto&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=22D3EE&line=22D3EE&point=FFFFFF&area=true&area_color=22D3EE" alt="Contribution graph"/>
 
 </div>
+
+---
+
+## LeetCode
+
+Custom SVG cards refresh on a schedule via [`.github/workflows/update-stats.yml`](.github/workflows/update-stats.yml). Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/).
+
+<!-- LEETCODE-MAIN:START -->
+<div align="center">
+  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
+    <img src="assets/cards/lc_main.svg" alt="LeetCode main stats" />
+  </a>
+</div>
+<!-- LEETCODE-MAIN:END -->
+
+<!-- LEETCODE-CONTESTS:START -->
+<div align="center">
+  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
+    <img src="assets/cards/lc_contests.svg" alt="LeetCode contests" />
+  </a>
+</div>
+<!-- LEETCODE-CONTESTS:END -->
 
 ---
 
