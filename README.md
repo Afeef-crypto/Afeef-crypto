@@ -7,25 +7,30 @@
 <div align="center">
 
 <pre>
+╔══════════════════════════════════════════════════════════╗
+║  A F E E F · Mohammed Afeefuddin                         ║
+╠══════════════════════════════════════════════════════════╣
  █████╗ ███████╗███████╗███████╗███████╗
 ██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝
 ███████║█████╗  █████╗  █████╗  █████╗  
 ██╔══██║██╔══╝  ██╔══╝  ██╔══╝  ██╔══╝  
-██║  ██║██║     ██║     ███████╗███████╗
-╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚══════╝
+██║  ██║██║     ███████╗███████╗██║     
+╚═╝  ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝     
+╚══════════════════════════════════════════════════════════╝
 </pre>
 
-<h3>Tech Co-founder Engineer · AI systems & backends · CS @ MJCET · Hyderabad</h3>
+### Tech Co-founder Engineer · AI systems & backends · CS @ MJCET · Hyderabad
 
 </div>
 
 <div align="center">
 
 ```
- ░▒▓█  ROUNDTABLECI · CLOVECI · pgvector · LANGCHAIN · HYDERABAD  █▓▒░
+ ░▒▓█  VENTURES  RoundtableCI · CloveCI · PrepHelp · Forklore · GRADE · Hyderabad  █▓▒░
+ ░▒▓█  STACK     PostgreSQL · pgvector · LangChain · RAG · Django · FastAPI · REST   █▓▒░
 ```
 
-<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2600&pause=650&color=22D3EE&center=true&vCenter=true&width=720&lines=Building+AI-native+product+%40+RoundtableCI;Lead+engineer+%40+CloveCI+%E2%80%94+ship+learn+iterate;PostgreSQL+%2B+pgvector+%2B+Django+%2B+FastAPI+%2B+REST;GRADE%3A+CV+%2B+Sentence-BERT+%2B+automated+grading;YC+W%2725+%2F+S%2726+applicant+%C2%B7+MJCET+%C2%B7+GDG+DSA+core" alt="Hero typing SVG" /></a>
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2600&pause=650&color=22D3EE&center=true&vCenter=true&width=780&lines=Building+AI-native+stack+%40+RoundtableCI;Lead+engineer+%40+CloveCI+%E2%80%94+ship+learn+iterate;PrepHelp+%C2%B7+RAG+%2B+students+%2B+Osmania-syllabus+pipelines;Forklore+%C2%B7+writers+%2B+fork+trees+%2B+collaborative+stories;GRADE+%C2%B7+CV+%2B+Sentence-BERT+%2B+automated+grading;YC+W%2725+%2F+S%2726+%C2%B7+MJCET+%C2%B7+GDG+DSA+core" alt="Hero typing SVG" /></a>
 
 <br/>
 
@@ -45,7 +50,7 @@
 
 ## About
 
-CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I split time between **RoundtableCI**, **CloveCI**, **DSA**, and the **Google Developer Groups On Campus** community at **MJCET**.
+CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I build **production-grade RAG & vector retrieval**, **AI orchestration**, and **multi-model evaluation** infrastructure.
 
 ---
 
@@ -80,6 +85,30 @@ Co-founding engineer on model routing, evaluation, and production backends — *
 [![YC](https://img.shields.io/badge/YC%20S26-Applicant-FF6600?style=flat-square&logo=ycombinator)](https://www.ycombinator.com)
 
 Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform work.
+
+</td>
+<td width="50%" valign="top">
+
+### PrepHelp
+**AI study platform — syllabus → structured learning**
+
+Built for real students and real syllabi: **PDF → structured JSON → pgvector** ingestion, **RAG** for exam prep, and pipelines you can dry-run and trust. Osmania University–aligned product story — the kind of benchmark problem that informs serious AI infra.
+
+[prephelp.in](https://www.prephelp.in/)
+
+[![Status](https://img.shields.io/badge/Status-Active-2ea043?style=flat-square)](https://www.prephelp.in/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Forklore
+**Writers’ companion MVP — collaborative storytelling**
+
+A platform where writers publish stories and readers create **forks** (alternate versions). Tracks fork trees, credit attribution, discovery, and AI-assisted writing. Stack highlights: **Vite + React + TypeScript**, **Tailwind + shadcn/ui**, **TipTap** editor, **Go** API gateway, **Node** BFF, **PostgreSQL**, **Redis**, **Pinecone** (embeddings roadmap).
+
+Project spec, **Sprint 1–14** timeline, and **repo layout** (`backend/` Go gateway, `frontend/` Vite+React+TS, Docker, PostgreSQL schema) live in the **Forklore** root `README` wherever you host that monorepo — link it here once the public repo is up.
 
 </td>
 <td width="50%" valign="top">
@@ -174,13 +203,13 @@ Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerate
 
 ## Quick tech overview
 
-I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**, **JavaScript**. On the server: **Python** (**Django**, **FastAPI**), **Java**, and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch** — including **GRADE**, where CV + **Sentence-BERT** meet **FastAPI** and a **web dashboard**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
+I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**, **JavaScript**. On the server: **Python** (**Django**, **FastAPI**), **Java**, and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
 
 ---
 
 ## Tech stack
 
-Rich section layout inspired by animated readme profiles — **capsule-render** headers, **typing SVG** lines, **Tech Stack Generator** icons, and **GIF** dividers (see [phero20](https://github.com/phero20/phero20) / [Morizz00](https://github.com/Morizz00/Morizz00)). Peek GIF rebuild: [`.github/workflows/build-peek-gif.yml`](.github/workflows/build-peek-gif.yml).
+Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Generator** icons, and alternating **dividers** (thin rules + non–“lion” GIF accents from common profile templates). Peek banner GIF: [`.github/workflows/build-peek-gif.yml`](.github/workflows/build-peek-gif.yml).
 
 <div align="center">
 
@@ -200,8 +229,6 @@ Rich section layout inspired by animated readme profiles — **capsule-render** 
 <img src="https://techstack-generator.vercel.app/github-icon.svg" width="68" height="68" alt="GitHub" />
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,25:111827,50:1f2937,75:1e3a5f,100:0f766e&height=92&section=header&text=%E2%9F%A8%20LANGUAGES%20%26%20WEB%20%E2%9F%A9&fontSize=22&fontColor=5EEAD4&animation=fadeIn&fontAlignY=25" width="100%"/>
 
@@ -258,8 +285,6 @@ Rich section layout inspired by animated readme profiles — **capsule-render** 
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
-
 <img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:052e16,25:065f46,50:0f766e,75:14b8a6,100:5eead4&text=%E2%9F%A8%20ML%20%26%20DATA%20SCIENCE%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=42&animation=scaleIn&fontSize=20&fontColor=ECFEFF" width="100%"/>
 
 ### Machine learning & data science
@@ -278,8 +303,6 @@ Rich section layout inspired by animated readme profiles — **capsule-render** 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,25:1e3a5f,50:0e7490,75:0891b2,100:22d3ee&height=92&section=header&text=%E2%9F%A8%20DATABASES%20%26%20VECTORS%20%E2%9F%A9&fontSize=21&fontColor=e0f2fe&animation=fadeIn&fontAlignY=25" width="100%"/>
 
@@ -334,8 +357,6 @@ Rich section layout inspired by animated readme profiles — **capsule-render** 
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
-
 <img src="https://capsule-render.vercel.app/api?type=slice&height=68&color=0:18181b,25:27272a,50:3f3f46,75:52525b,100:a1a1aa&text=%E2%9F%A8%20DEV%20TOOLS%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=40&animation=fadeIn&fontSize=21&fontColor=f4f4f5" width="100%"/>
 
 ### Development tools
@@ -359,7 +380,7 @@ Rich section layout inspired by animated readme profiles — **capsule-render** 
 - Shipping product and engineering work as **co-founder** at **RoundtableCI** and **Lead engineer** at **CloveCI**
 - Levelling up **DSA** and supporting peers as **DSA Core** with **GDG On Campus – MJCET**
 - Completing **B.E. Computer Science** at **MJCET**
-
+- Exploring the latest tech concerning GenAi and Deeplearning
 ---
 
 <div align="center">
