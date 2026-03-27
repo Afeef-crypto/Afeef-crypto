@@ -138,13 +138,17 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 ## Contribution snake
 
-Animated grid from [**Platane/snk**](https://github.com/Platane/snk). The workflow ([`.github/workflows/snake.yml`](.github/workflows/snake.yml)) commits **`github-contribution-grid-snake-dark.gif`** to **`assets/snake/`** on `main` (GIF, not SVG — more reliable on profiles). Run **Actions → Generate contribution snake** to refresh.
+Grid animation via [**Platane/snk**](https://github.com/Platane/snk). [**Run the workflow once**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) (**Run workflow** → pick `main`) to regenerate **`assets/snake/github-contribution-grid-snake-dark.gif`** from your real contribution graph. Until then you’ll see a **high-contrast placeholder** GIF in the preview below.
 
 <p align="center">
-  <img src="assets/snake/github-contribution-grid-snake-dark.gif" alt="GitHub contribution snake" width="880" />
+  <img
+    src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif"
+    alt="GitHub contribution snake animation"
+    width="880"
+  />
 </p>
 
-<sub>If this doesn’t render on your profile, confirm the file exists on the default branch: [`assets/snake/github-contribution-grid-snake-dark.gif`](assets/snake/github-contribution-grid-snake-dark.gif).</sub>
+<sub>Repo-relative URLs can look “empty” in some GitHub previews; this uses <code>raw.githubusercontent.com</code>. Repo file: [`assets/snake/github-contribution-grid-snake-dark.gif`](assets/snake/github-contribution-grid-snake-dark.gif).</sub>
 
 ---
 
