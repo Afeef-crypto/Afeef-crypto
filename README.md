@@ -154,11 +154,11 @@ SVG cards update on a schedule via [**Update LeetCode stats**](https://github.co
 
 ## Contribution snake
 
-Grid animation via [**Platane/snk**](https://github.com/Platane/snk). [**Run the workflow**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) to refresh **`assets/snake/github-contribution-grid-snake-dark.gif`**. Images below use **`raw.githubusercontent.com`** so they show up in the **blob README preview** (not only on your profile).
+Grid animation via [**Platane/snk**](https://github.com/Platane/snk) (SVG). [**Run the workflow**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) to refresh **`assets/snake/github-contribution-grid-snake-dark.svg`**. CI uses **`Platane/snk/svg-only@v3`** (no Docker) so runs don’t fail on GIF/image pull issues.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif" alt="GitHub contribution snake" width="880" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="880" /></p>
 
-<sub>Source file: [`assets/snake/github-contribution-grid-snake-dark.gif`](assets/snake/github-contribution-grid-snake-dark.gif)</sub>
+<sub>Source: [`github-contribution-grid-snake-dark.svg`](assets/snake/github-contribution-grid-snake-dark.svg) · light variant: [`github-contribution-grid-snake.svg`](assets/snake/github-contribution-grid-snake.svg)</sub>
 
 ---
 

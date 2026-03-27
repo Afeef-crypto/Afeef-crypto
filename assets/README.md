@@ -6,7 +6,7 @@ This folder holds **static assets** for [`Afeef-crypto/Afeef-crypto`](https://gi
 |------|--------|
 | `banners/` | **`profile-peek-banner.gif`** — animated peek loop (bob motion). The build script recolors the PNG’s teal/navy backdrop to **black + dark red** to match the profile README, then quantizes to GIF. |
 | `cards/` | **LeetCode** SVGs (`lc_main.svg`, `lc_contests.svg`). README embeds them via **`raw.githubusercontent.com/.../main/assets/cards/...`** so the blob preview shows images. Refreshed by [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml). |
-| `snake/` | **Contribution snake** assets (`*.gif`, `*.svg`) from [`.github/workflows/snake.yml`](../.github/workflows/snake.yml). README uses **`raw.githubusercontent.com/.../main/assets/snake/...gif`** for reliable blob + profile rendering. **Workflow permissions** → **Read and write**. |
+| `snake/` | **Contribution snake** animated **SVGs** from [`.github/workflows/snake.yml`](../.github/workflows/snake.yml) (**`Platane/snk/svg-only@v3`** — avoids Docker GIF failures). README embeds **`.../github-contribution-grid-snake-dark.svg`** via `raw.githubusercontent.com`. **Workflow permissions** → **Read and write**. |
 
 ### Peek banner GIF
 

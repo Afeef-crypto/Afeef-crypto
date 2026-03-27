@@ -17,24 +17,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Generate snake SVG + GIF
-        uses: Platane/snk@v3
+        uses: actions/checkout@v4
         with:
-          github_user_name: Afeef-crypto
+          fetch-depth: 0
+
+      # svg-only = Node action (no Docker). Full Platane/snk@v3 often fails when the
+      # docker image pull or GIF pipeline errors on GitHub-hosted runners.
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-dark.gif?palette=github-dark
 
-      - name: Copy into assets (profile README: GIF renders; SVG is optional / tooling)
+      - name: Copy into assets/snake
         run: |
           mkdir -p assets/snake
-          cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg dist/github-contribution-grid-snake-dark.gif assets/snake/
+          cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg assets/snake/
 
-      - name: Commit snake assets if changed
+      - name: Commit snake SVGs if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update contribution snake assets [skip ci]"
-          file_pattern: assets/snake/*
+          commit_message: "chore: update contribution snake SVGs [skip ci]"
+          file_pattern: "assets/snake/*.svg"
