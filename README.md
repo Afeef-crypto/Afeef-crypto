@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/banners/profile-peek-banner.png" alt="Mohammed Afeefuddin" width="680" />
+<img src="assets/banners/profile-peek-banner.gif" alt="Mohammed Afeefuddin" width="640" />
 </div>
 
 <div align="center">
