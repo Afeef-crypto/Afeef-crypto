@@ -15,6 +15,13 @@ ACCOUNTS = {
 README_PATH  = "README.md"
 LEETCODE_GQL = "https://leetcode.com/graphql"
 RAW_BASE = "assets/cards"
+# Absolute raw URLs so README images render on github.com/.../blob/... previews (relative paths often fail).
+PROFILE_REPO = "Afeef-crypto/Afeef-crypto"
+DEFAULT_BRANCH = "main"
+
+
+def raw_asset_url(relative: str) -> str:
+    return f"https://raw.githubusercontent.com/{PROFILE_REPO}/{DEFAULT_BRANCH}/{relative}"
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -83,10 +90,11 @@ def leetcode_profile_url(username):
 
 def img_block(svg_file, username, alt):
     link = leetcode_profile_url(username)
+    src = raw_asset_url(f"{RAW_BASE}/{svg_file}")
     return (
         f'<div align="center">\n'
         f'  <a href="{link}">\n'
-        f'    <img src="{RAW_BASE}/{svg_file}" alt="{alt}" />\n'
+        f'    <img src="{src}" alt="{alt}" width="520" />\n'
         f'  </a>\n'
         f'</div>\n'
     )

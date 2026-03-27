@@ -1,8 +1,14 @@
 name: Update LeetCode stats
 
 on:
-  # README no longer embeds LeetCode cards; run manually if you add them back.
+  schedule:
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_readme.py"
+      - "scripts/generate_cards.py"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true

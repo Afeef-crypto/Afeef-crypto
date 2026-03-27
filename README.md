@@ -132,23 +132,33 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 ## Competitive programming
 
-[LeetCode — **mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/)
+SVG cards update on a schedule via [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml). Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/).
+
+<!-- LEETCODE-MAIN:START -->
+<div align="center">
+  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
+    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_main.svg" alt="LeetCode main stats" width="520" />
+  </a>
+</div>
+<!-- LEETCODE-MAIN:END -->
+
+<!-- LEETCODE-CONTESTS:START -->
+<div align="center">
+  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
+    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_contests.svg" alt="LeetCode contests" width="520" />
+  </a>
+</div>
+<!-- LEETCODE-CONTESTS:END -->
 
 ---
 
 ## Contribution snake
 
-Grid animation via [**Platane/snk**](https://github.com/Platane/snk). [**Run the workflow once**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) (**Run workflow** → pick `main`) to regenerate **`assets/snake/github-contribution-grid-snake-dark.gif`** from your real contribution graph. Until then you’ll see a **high-contrast placeholder** GIF in the preview below.
+Grid animation via [**Platane/snk**](https://github.com/Platane/snk). [**Run the workflow**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) to refresh **`assets/snake/github-contribution-grid-snake-dark.gif`**. Images below use **`raw.githubusercontent.com`** so they show up in the **blob README preview** (not only on your profile).
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif"
-    alt="GitHub contribution snake animation"
-    width="880"
-  />
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif" alt="GitHub contribution snake" width="880" /></p>
 
-<sub>Repo-relative URLs can look “empty” in some GitHub previews; this uses <code>raw.githubusercontent.com</code>. Repo file: [`assets/snake/github-contribution-grid-snake-dark.gif`](assets/snake/github-contribution-grid-snake-dark.gif).</sub>
+<sub>Source file: [`assets/snake/github-contribution-grid-snake-dark.gif`](assets/snake/github-contribution-grid-snake-dark.gif)</sub>
 
 ---
 
