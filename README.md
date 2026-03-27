@@ -46,7 +46,7 @@ CS undergraduate focused on turning ideas into working software. Based in **Hyde
 
 ---
 
-## `whoami`
+## `I'm`
 
 ```ts
 const afeef = {
