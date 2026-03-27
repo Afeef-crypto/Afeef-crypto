@@ -34,6 +34,8 @@
 
 </div>
 
+</div>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:7f1d1d,100:0a0a0a&height=4&section=header" width="100%" alt="divider"/>
 
 ---
