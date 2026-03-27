@@ -130,51 +130,21 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 ---
 
-## GitHub stats
+## Competitive programming
 
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Afeef-crypto&theme=radical" alt="GitHub stats" width="100%"/>
-
-<img src="https://streak-stats.demolab.com/?user=Afeef-crypto&hide_border=true&background=0A0A0A&ring=DC2626&fire=B91C1C&currStreakLabel=F87171&sideLabels=737373&sideNums=E5E5E5&dates=737373&currStreakNum=F87171" alt="Streak stats"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Afeef-crypto&hide_border=true&bg_color=0A0A0A&color=DC2626&line=B91C1C&point=F87171&area=true&area_color=450a0a" alt="Contribution graph"/>
-
-</div>
-
----
-
-## LeetCode
-
-Custom SVG cards refresh on a schedule via [`.github/workflows/update-stats.yml`](.github/workflows/update-stats.yml). Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/).
-
-<!-- LEETCODE-MAIN:START -->
-<div align="center">
-  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
-    <img src="assets/cards/lc_main.svg" alt="LeetCode main stats" />
-  </a>
-</div>
-<!-- LEETCODE-MAIN:END -->
-
-<!-- LEETCODE-CONTESTS:START -->
-<div align="center">
-  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
-    <img src="assets/cards/lc_contests.svg" alt="LeetCode contests" />
-  </a>
-</div>
-<!-- LEETCODE-CONTESTS:END -->
+[LeetCode — **mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/)
 
 ---
 
 ## Contribution snake
 
-Animated grid from [**Platane/snk**](https://github.com/Platane/snk). A **GIF** is committed to **`main`** under **`assets/snake/`** every six hours ([`.github/workflows/snake.yml`](.github/workflows/snake.yml)) — **profile READMEs often block SVG** in `<img>`, so this uses a GIF + an absolute `raw` URL.
+Animated grid from [**Platane/snk**](https://github.com/Platane/snk). The workflow ([`.github/workflows/snake.yml`](.github/workflows/snake.yml)) commits **`github-contribution-grid-snake-dark.gif`** to **`assets/snake/`** on `main` (GIF, not SVG — more reliable on profiles). Run **Actions → Generate contribution snake** to refresh.
 
-<div align="center">
-<img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif" width="100%" />
-</div>
+<p align="center">
+  <img src="assets/snake/github-contribution-grid-snake-dark.gif" alt="GitHub contribution snake" width="880" />
+</p>
+
+<sub>If this doesn’t render on your profile, confirm the file exists on the default branch: [`assets/snake/github-contribution-grid-snake-dark.gif`](assets/snake/github-contribution-grid-snake-dark.gif).</sub>
 
 ---
 
