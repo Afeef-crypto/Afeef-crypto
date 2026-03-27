@@ -134,16 +134,7 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 <div align="center">
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Afeef-crypto&theme=radical" alt="GitHub stats" width="100%"/>
-</td>
-<td width="50%" valign="top">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Afeef-crypto&theme=radical" alt="Top languages by commit" width="100%"/>
-</td>
-</tr>
-</table>
 
 <img src="https://streak-stats.demolab.com/?user=Afeef-crypto&hide_border=true&background=0A0A0A&ring=DC2626&fire=B91C1C&currStreakLabel=F87171&sideLabels=737373&sideNums=E5E5E5&dates=737373&currStreakNum=F87171" alt="Streak stats"/>
 
@@ -179,10 +170,10 @@ Custom SVG cards refresh on a schedule via [`.github/workflows/update-stats.yml`
 
 ## Contribution snake
 
-Animated grid from [**Platane/snk**](https://github.com/Platane/snk), committed to **`assets/snake/`** on `main` every six hours via [`.github/workflows/snake.yml`](.github/workflows/snake.yml) (also run it manually once if you still see the placeholder).
+Animated grid from [**Platane/snk**](https://github.com/Platane/snk). A **GIF** is committed to **`main`** under **`assets/snake/`** every six hours ([`.github/workflows/snake.yml`](.github/workflows/snake.yml)) — **profile READMEs often block SVG** in `<img>`, so this uses a GIF + an absolute `raw` URL.
 
 <div align="center">
-<img alt="GitHub contribution snake animation" src="assets/snake/github-contribution-grid-snake-dark.svg" width="100%" />
+<img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif" width="100%" />
 </div>
 
 ---

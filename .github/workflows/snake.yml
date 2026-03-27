@@ -19,21 +19,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Generate snake SVGs
+      - name: Generate snake SVG + GIF
         uses: Platane/snk@v3
         with:
           github_user_name: Afeef-crypto
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.gif?palette=github-dark
 
-      - name: Copy SVGs to assets (README uses main branch)
+      - name: Copy into assets (profile README: GIF renders; SVG is optional / tooling)
         run: |
           mkdir -p assets/snake
-          cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg assets/snake/
+          cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg dist/github-contribution-grid-snake-dark.gif assets/snake/
 
-      - name: Commit snake SVGs if changed
+      - name: Commit snake assets if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update contribution snake SVGs [skip ci]"
-          file_pattern: assets/snake/*.svg
+          commit_message: "chore: update contribution snake assets [skip ci]"
+          file_pattern: assets/snake/*
