@@ -26,7 +26,7 @@
 
 ## About
 
-CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I split time between **building at CloveCI**, sharpening **DSA** fundamentals, and contributing to the **Google Developer Groups On Campus** community at **MJCET**.
+CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I split time between **building and leading teams at CloveCI**, sharpening **DSA** fundamentals, and contributing to the my problem solving skills .
 
 ---
 
@@ -35,25 +35,14 @@ CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into 
 ```ts
 const afeef = {
   name: "Mohammed Afeefuddin",
-  role: "Tech Co-founder Engineer @ CloveCI",
+  company: "RoundtableCI",
+  role: "Tech Co-founder Engineer ",
   location: "Hyderabad, Telangana, India",
   education: "B.E. Computer Science — MJCET (2023 – 2027)",
-  community: [
-    "DSA Core Member — GDG On Campus MJCET",
-    "Former Member — GDG On Campus MJCET",
+  domains : ["AI Systems", "RAG Pipelines", "Vector DBs"],
+  currently : "Y Combinator W'25 and S26 applicant"
   ],
   focus: ["Product engineering", "Startup execution", "Algorithms & problem solving"],
-  stack: {
-    languages: ["C", "Java", "Python", "JavaScript", "HTML", "CSS"],
-    frontend: ["HTML", "CSS", "JavaScript"],
-    backend: ["Java", "JavaScript", "Python", "Django", "REST APIs"],
-    ai: ["OpenAI", "Claude", "Gemini", "LangChain", "Hugging Face"],
-    ml: ["pandas", "scikit-learn", "OpenCV", "PyTorch"],
-    datastores: ["PostgreSQL", "MySQL", "pgvector", "Pinecone"],
-    devops: ["Docker", "Kubernetes", "GitHub Actions", "Git"],
-    tools: ["VS Code", "Postman", "Notion"],
-    cloud: ["Google Cloud", "AWS"],
-  },
 };
 ```
 
@@ -63,7 +52,8 @@ const afeef = {
 
 | | |
 |:--|:--|
-| **CloveCI** — *Tech Co-founder Engineer* | Aug 2025 – Present · Hyderabad |
+| **RoundtableCI** – *Tech Co-Founder* | September 2025 – Present · Hyderabad |
+| **CloveCI** — *Lead Engineer* | Aug 2025 – Present · Hyderabad |
 | **GDG On Campus – MJCET** — *DSA Core Member* | Nov 2025 – Present |
 | **GDG On Campus – MJCET** — *Member* | Dec 2023 – Nov 2024 |
 | **Muffakham Jah College of Engineering & Technology** — *B.E. Computer Science* | 2023 – 2027 |
@@ -133,7 +123,7 @@ Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerate
 
 ## Quick tech overview
 
-I work across **full-stack web**, **APIs**, and **AI/ML**. On the client I use **HTML**, **CSS**, and **JavaScript**. On the server I build with **Java**, **JavaScript**, **Python**, and **Django**, exposing well-structured **REST APIs**. For **AI infrastructure** I integrate **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, and **Hugging Face**. For **machine learning & data science** I reach for **pandas**, **scikit-learn**, **OpenCV**, and **PyTorch**. Data tends to live in **PostgreSQL** (with **pgvector** where embeddings matter), **MySQL**, and **Pinecone** for vector search. I operate services with **Docker**, **Kubernetes**, **GitHub Actions**, and **Git**; day-to-day I use **VS Code**, **Postman**, and **Notion**; deployments and managed services lean on **Google Cloud** and **AWS**.
+I work across **AI/ML** systems for scalability and real-world applications. On the client I use **HTML**, **CSS**, and **JavaScript**. On the server I build with **Python** primarily **Django** and **FastApi** for Backend, exposing well-structured **REST APIs**. For **AI infrastructure** I integrate **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, and **Hugging Face**. For **machine learning & data science** I reach for **pandas**, **scikit-learn**, **OpenCV**, and **PyTorch**. Data tends to live in **PostgreSQL** (with **pgvector** where embeddings matter), **MySQL**, and **Pinecone** for vector search. I operate services with **Docker**, **Kubernetes**, **GitHub Actions**, and **Git** deployments and managed services lean on **Google Cloud** and **AWS**.
 
 ---
 
@@ -241,7 +231,7 @@ I work across **full-stack web**, **APIs**, and **AI/ML**. On the client I use *
 
 ## Currently
 
-- Shipping product and engineering work as **co-founder engineer** at **CloveCI**
+- Shipping product and engineering work as **co-founder** at **RoundtableCI** and **Lead engineer** at **CloveCI**
 - Levelling up **DSA** and supporting peers as **DSA Core** with **GDG On Campus – MJCET**
 - Completing **B.E. Computer Science** at **MJCET**
 
