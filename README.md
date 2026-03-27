@@ -26,7 +26,7 @@
 
 ## About
 
-CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I split time between **building and leading teams at CloveCI**, sharpening **DSA** fundamentals, and contributing to the my problem solving skills .
+CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I split time between **RoundtableCI**, **CloveCI**, **DSA**, and the **Google Developer Groups On Campus** community at **MJCET**.
 
 ---
 
@@ -35,16 +35,48 @@ CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into 
 ```ts
 const afeef = {
   name: "Mohammed Afeefuddin",
-  company: "RoundtableCI",
-  role: "Tech Co-founder Engineer ",
+  role: ["Tech Co-founder @ RoundtableCI", "Lead Engineer @ CloveCI"],
   location: "Hyderabad, Telangana, India",
   education: "B.E. Computer Science — MJCET (2023 – 2027)",
-  domains : ["AI Systems", "RAG Pipelines", "Vector DBs"],
-  currently : "Y Combinator W'25 and S26 applicant"
-  ],
+  domains: ["AI systems", "RAG pipelines", "Vector DBs", "Backend & product"],
+  currently: "Y Combinator W'25 and S26 applicant",
   focus: ["Product engineering", "Startup execution", "Algorithms & problem solving"],
 };
 ```
+
+---
+
+## What I'm building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### RoundtableCI
+**AI orchestration & platform**
+
+Co-founding engineer on model routing, evaluation, and production backends — **PostgreSQL**, **pgvector**, **LangChain-style** pipelines, and infrastructure that survives real traffic.
+
+[![Status](https://img.shields.io/badge/Status-In%20Development-0891b2?style=flat-square)](https://github.com/Afeef-crypto)
+[![YC](https://img.shields.io/badge/YC%20S26-Applicant-FF6600?style=flat-square&logo=ycombinator)](https://www.ycombinator.com)
+
+Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform work.
+
+</td>
+<td width="50%" valign="top">
+
+### GRADE
+**Automated handwritten answer sheet grading**
+
+CV + NLP pipeline: ingest scanned sheets, segment questions, multi-tier OCR (cloud → PaddleOCR → TrOCR), then **Sentence-BERT** semantic scoring for partial credit and paraphrasing. **FastAPI** backend, **React** dashboard with overlays, **PDF** reports — academic mini project @ MJCET.
+
+- [github.com/Afeef-crypto/GRADE](https://github.com/Afeef-crypto/GRADE)
+
+[![Repo](https://img.shields.io/badge/View-Repository-22d3ee?style=flat-square&logo=github)](https://github.com/Afeef-crypto/GRADE)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -123,35 +155,46 @@ Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerate
 
 ## Quick tech overview
 
-I work across **AI/ML** systems for scalability and real-world applications. On the client I use **HTML**, **CSS**, and **JavaScript**. On the server I build with **Python** primarily **Django** and **FastApi** for Backend, exposing well-structured **REST APIs**. For **AI infrastructure** I integrate **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, and **Hugging Face**. For **machine learning & data science** I reach for **pandas**, **scikit-learn**, **OpenCV**, and **PyTorch**. Data tends to live in **PostgreSQL** (with **pgvector** where embeddings matter), **MySQL**, and **Pinecone** for vector search. I operate services with **Docker**, **Kubernetes**, **GitHub Actions**, and **Git** deployments and managed services lean on **Google Cloud** and **AWS**.
+I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**, **JavaScript**, **React**. On the server: **Python** (**Django**, **FastAPI**), **Java**, and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch** — including **GRADE**, where CV + **Sentence-BERT** meet **FastAPI** and **React**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
 
 ---
 
 ## Tech stack
 
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2400&pause=600&color=22D3EE&center=true&vCenter=true&width=560&lines=Languages+%26+web;Backend+%2B+REST+APIs;AI+%2B+ML+%2B+data;Cloud+%2B+DevOps+%2B+tools" alt="Tech sections" />
+
+<br/>
+
+<sub>Animated icons · <a href="https://techstack-generator.vercel.app/">Tech Stack Generator</a></sub><br/>
+
+<img src="https://techstack-generator.vercel.app/java-icon.svg" width="68" height="68" alt="Java" />
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="68" height="68" alt="Python" />
+<img src="https://techstack-generator.vercel.app/js-icon.svg" width="68" height="68" alt="JavaScript" />
+<img src="https://techstack-generator.vercel.app/react-icon.svg" width="68" height="68" alt="React" />
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="68" height="68" alt="Docker" />
+<img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="68" height="68" alt="Kubernetes" />
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="68" height="68" alt="MySQL" />
+<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="68" height="68" alt="AWS" />
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
 ### Languages & web
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,java,python,javascript,html,css&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=c,java,python,javascript,html,css,react&theme=dark&perline=7" alt="Languages and web" />
 
 </div>
 
-### Frontend
+### Backend & APIs
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,javascript&theme=dark" alt="Frontend" />
-
-<sub>HTML · CSS · JavaScript</sub>
-
-</div>
-
-### Backend
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,python,django&theme=dark" alt="Backend" />
+<img src="https://skillicons.dev/icons?i=java,python,django,fastapi&theme=dark&perline=4" alt="Backend" />
 
 <br/>
 
@@ -176,13 +219,12 @@ I work across **AI/ML** systems for scalability and real-world applications. On 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" alt="PyTorch" />
+<img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark&perline=6" alt="PyTorch and OpenCV" />
 
 <br/>
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
 
@@ -190,7 +232,7 @@ I work across **AI/ML** systems for scalability and real-world applications. On 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark" alt="SQL databases" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark&perline=6" alt="Databases" />
 
 <br/>
 
@@ -203,7 +245,7 @@ I work across **AI/ML** systems for scalability and real-world applications. On 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,githubactions&theme=dark" alt="DevOps" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,githubactions&theme=dark&perline=6" alt="DevOps" />
 
 </div>
 
@@ -211,7 +253,7 @@ I work across **AI/ML** systems for scalability and real-world applications. On 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=gcp,aws&theme=dark" alt="Cloud" />
+<img src="https://skillicons.dev/icons?i=gcp,aws&theme=dark&perline=6" alt="Cloud" />
 
 <sub>Google Cloud · AWS</sub>
 
@@ -221,7 +263,7 @@ I work across **AI/ML** systems for scalability and real-world applications. On 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=vscode,postman&theme=dark" alt="IDE and API client" />
+<img src="https://skillicons.dev/icons?i=vscode,postman&theme=dark&perline=6" alt="Dev tools" />
 
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
