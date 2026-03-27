@@ -13,7 +13,7 @@
 ╚══════════════════════════════════════════════════════════╝
 </pre>
 
-### Tech Co-founder Engineer · AI systems & backends · CS @ MJCET · Hyderabad
+### · AI systems · Founder · CS @ MJCET · Hyderabad
 
 <div align="center">
 <img src="assets/banners/profile-peek-banner.gif" alt="Mohammed Afeefuddin" width="640" />
@@ -40,12 +40,9 @@
 
 ## About
 
-CS undergraduate and **Tech Co-founder Engineer** focused on turning ideas into working software. Based in **Hyderabad, India**, I build **production-grade RAG & vector retrieval**, **AI orchestration**, and **multi-model evaluation** infrastructure.
+CS undergraduate focused on turning ideas into working software. Based in **Hyderabad, India**, I build **production-grade RAG & vector retrieval**, **AI orchestration**, and **multi-model evaluation** infrastructure.
 
 ---
-
-## `whoami`
-
 ```ts
 const afeef = {
   name: "Mohammed Afeefuddin",
@@ -105,7 +102,7 @@ Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform wo
 ### GRADE
 **Automated handwritten answer sheet grading**
 
-**v2 plan:** OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → PaddleOCR → TrOCR) with confidence semantics for downstream review. **PostgreSQL + pgvector** for answer-key embeddings and semantic retrieval; **LLM rubric scoring** (strict JSON schema, weighted factual / conceptual / reasoning / terminology dimensions, grading confidence + flags, prompt versioning for audit) replaces SBERT-only marks, with **Sentence-BERT** as an optional fallback. **FastAPI** backend, **React** dashboard with rubric-aware overlays, **PDF** reports — academic mini project @ MJCET.
+OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → PaddleOCR → TrOCR) with confidence semantics for downstream review. **PostgreSQL + pgvector** for answer-key embeddings and semantic retrieval; **LLM rubric scoring** (strict JSON schema, weighted factual / conceptual / reasoning / terminology dimensions, grading confidence + flags, prompt versioning for audit) replaces SBERT-only marks, with **Sentence-BERT** as an optional fallback. **FastAPI** backend, **React** dashboard with rubric-aware overlays, **PDF** reports — academic mini project @ MJCET.
 
 - [github.com/Afeef-crypto/GRADE](https://github.com/Afeef-crypto/GRADE)
 
