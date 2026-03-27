@@ -23,23 +23,29 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install dependencies
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y libasound2t64
+          sudo apt-get install -y libasound2t64 librsvg2-bin
           pip install requests
 
       - name: Regenerate LeetCode cards + README sections
         run: python scripts/update_readme.py
+
+      # GitHub README <img> often blocks raw SVG (Camo); PNG embeds reliably.
+      - name: Rasterize card SVGs to PNG
+        run: |
+          rsvg-convert -w 520 "assets/cards/lc_main.svg"     -o "assets/cards/lc_main.png"
+          rsvg-convert -w 520 "assets/cards/lc_contests.svg" -o "assets/cards/lc_contests.png"
 
       - name: Commit & push if changed
         run: |

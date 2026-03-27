@@ -88,9 +88,9 @@ def fetch_contests(username):
 def leetcode_profile_url(username):
     return f"https://leetcode.com/u/{username}/"
 
-def img_block(svg_file, username, alt):
+def img_block(png_file, username, alt):
     link = leetcode_profile_url(username)
-    src = raw_asset_url(f"{RAW_BASE}/{svg_file}")
+    src = raw_asset_url(f"{RAW_BASE}/{png_file}")
     return (
         f'<div align="center">\n'
         f'  <a href="{link}">\n'
@@ -113,7 +113,7 @@ def main():
         d = fetch_main(ACCOUNTS["MAIN"])
         cards.write_main(d)
         content = replace_section(content, "LEETCODE-MAIN",
-            img_block("lc_main.svg", d["username"], "LeetCode main stats"))
+            img_block("lc_main.png", d["username"], "LeetCode main stats"))
         print(f"[ok] Main ({d['username']}): {d['total']} solved")
     except Exception as e:
         errors.append(str(e))
@@ -123,7 +123,7 @@ def main():
         d = fetch_contests(ACCOUNTS["CONTESTS"])
         cards.write_contests(d)
         content = replace_section(content, "LEETCODE-CONTESTS",
-            img_block("lc_contests.svg", d["username"], "LeetCode contests"))
+            img_block("lc_contests.png", d["username"], "LeetCode contests"))
         print(f"[ok] Contests ({d['username']}): {d['total']} solved, rating {d['rating']}")
     except Exception as e:
         errors.append(str(e))

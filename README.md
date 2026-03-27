@@ -132,12 +132,12 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 ## Competitive programming
 
-SVG cards update on a schedule via [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml). Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/).
+**PNG** cards (from SVG via CI) update on a schedule via [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml) — GitHub often blocks **SVG** in README `<img>`. Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/).
 
 <!-- LEETCODE-MAIN:START -->
 <div align="center">
   <a href="https://leetcode.com/u/mohammed_afeefuddin/">
-    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_main.svg" alt="LeetCode main stats" width="520" />
+    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_main.png" alt="LeetCode main stats" width="520" />
   </a>
 </div>
 <!-- LEETCODE-MAIN:END -->
@@ -145,7 +145,7 @@ SVG cards update on a schedule via [**Update LeetCode stats**](https://github.co
 <!-- LEETCODE-CONTESTS:START -->
 <div align="center">
   <a href="https://leetcode.com/u/mohammed_afeefuddin/">
-    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_contests.svg" alt="LeetCode contests" width="520" />
+    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_contests.png" alt="LeetCode contests" width="520" />
   </a>
 </div>
 <!-- LEETCODE-CONTESTS:END -->
@@ -154,11 +154,11 @@ SVG cards update on a schedule via [**Update LeetCode stats**](https://github.co
 
 ## Contribution snake
 
-Grid animation via [**Platane/snk**](https://github.com/Platane/snk) (SVG). [**Run the workflow**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) to refresh **`assets/snake/github-contribution-grid-snake-dark.svg`**. CI uses **`Platane/snk/svg-only@v3`** (no Docker) so runs don’t fail on GIF/image pull issues.
+Grid via [**Platane/snk**](https://github.com/Platane/snk) (**SVG** in repo; **PNG** below for README — GitHub blocks many SVG `<img>` loads). [**Run the workflow**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) to refresh. CI: **`Platane/snk/svg-only@v3`** + `rsvg-convert` → PNG.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="880" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.png" alt="GitHub contribution snake" width="880" /></p>
 
-<sub>Source: [`github-contribution-grid-snake-dark.svg`](assets/snake/github-contribution-grid-snake-dark.svg) · light variant: [`github-contribution-grid-snake.svg`](assets/snake/github-contribution-grid-snake.svg)</sub>
+<sub>Animated: [`github-contribution-grid-snake-dark.svg`](assets/snake/github-contribution-grid-snake-dark.svg) · README raster: [`github-contribution-grid-snake-dark.png`](assets/snake/github-contribution-grid-snake-dark.png)</sub>
 
 ---
 

@@ -37,8 +37,17 @@ jobs:
           mkdir -p assets/snake
           cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg assets/snake/
 
-      - name: Commit snake SVGs if changed
+      - name: Install rsvg-convert
+        run: sudo apt-get update -qq && sudo apt-get install -y librsvg2-bin
+
+      # SVG in README <img> is often blocked; PNG shows the first rasterized frame (static grid).
+      - name: Rasterize dark snake SVG to PNG
+        run: |
+          rsvg-convert -w 880 "assets/snake/github-contribution-grid-snake-dark.svg" \
+            -o "assets/snake/github-contribution-grid-snake-dark.png"
+
+      - name: Commit snake assets if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update contribution snake SVGs [skip ci]"
-          file_pattern: "assets/snake/*.svg"
+          commit_message: "chore: update contribution snake assets [skip ci]"
+          file_pattern: "assets/snake/*"
