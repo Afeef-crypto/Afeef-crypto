@@ -137,15 +137,15 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api?username=Afeef-crypto&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=DC2626&text_color=E5E5E5&icon_color=EF4444" alt="GitHub stats" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Afeef-crypto&theme=radical" alt="GitHub stats" width="100%"/>
 </td>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Afeef-crypto&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=DC2626&text_color=E5E5E5" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Afeef-crypto&theme=radical" alt="Top languages by commit" width="100%"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Afeef-crypto&hide_border=true&background=0A0A0A&ring=DC2626&fire=B91C1C&currStreakLabel=F87171&sideLabels=737373&sideNums=E5E5E5&dates=737373&currStreakNum=F87171" alt="Streak stats"/>
+<img src="https://streak-stats.demolab.com/?user=Afeef-crypto&hide_border=true&background=0A0A0A&ring=DC2626&fire=B91C1C&currStreakLabel=F87171&sideLabels=737373&sideNums=E5E5E5&dates=737373&currStreakNum=F87171" alt="Streak stats"/>
 
 <br/>
 
@@ -179,10 +179,10 @@ Custom SVG cards refresh on a schedule via [`.github/workflows/update-stats.yml`
 
 ## Contribution snake
 
-Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerated every six hours via [`.github/workflows/snake.yml`](.github/workflows/snake.yml) (SVGs live on the `output` branch).
+Animated grid from [**Platane/snk**](https://github.com/Platane/snk), committed to **`assets/snake/`** on `main` every six hours via [`.github/workflows/snake.yml`](.github/workflows/snake.yml) (also run it manually once if you still see the placeholder).
 
 <div align="center">
-<img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img alt="GitHub contribution snake animation" src="assets/snake/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
 ---

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 -32 880 192" width="880" height="192">
+  <desc>Placeholder until .github/workflows/snake.yml runs</desc>
+  <rect fill="#fafafa" width="900" height="220" x="-20" y="-40"/>
+  <text x="440" y="72" fill="#24292f" font-family="ui-monospace,monospace" font-size="15" text-anchor="middle">Contribution snake</text>
+  <text x="440" y="98" fill="#57606a" font-family="ui-monospace,monospace" font-size="12" text-anchor="middle">Run Actions ’ Generate contribution snake, or wait for the scheduled job.</text>
+</svg>
