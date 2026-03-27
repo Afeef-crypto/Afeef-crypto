@@ -23,16 +23,9 @@
 
 </div>
 
-<div align="center">
-
-```
- ░▒▓█  VENTURES  RoundtableCI · CloveCI · PrepHelp · Forklore · GRADE · Hyderabad  █▓▒░
- ░▒▓█  STACK     PostgreSQL · pgvector · LangChain · RAG · Django · FastAPI · REST   █▓▒░
-```
-
-<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2600&pause=650&color=22D3EE&center=true&vCenter=true&width=780&lines=Building+AI-native+stack+%40+RoundtableCI;Lead+engineer+%40+CloveCI+%E2%80%94+ship+learn+iterate;PrepHelp+%C2%B7+RAG+%2B+students+%2B+Osmania-syllabus+pipelines;Forklore+%C2%B7+writers+%2B+fork+trees+%2B+collaborative+stories;GRADE+%C2%B7+CV+%2B+Sentence-BERT+%2B+automated+grading;YC+W%2725+%2F+S%2726+%C2%B7+MJCET+%C2%B7+GDG+DSA+core" alt="Hero typing SVG" /></a>
-
 <br/>
+
+<div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Afeef--crypto-181717?style=for-the-badge&logo=github)](https://github.com/Afeef-crypto)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Afeefuddin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-afeefuddin-188aa5395/)
@@ -40,11 +33,11 @@
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=Afeef-crypto&style=for-the-badge&color=0891b2&label=profile+views)
+![](https://komarev.com/ghpvc/?username=Afeef-crypto&style=for-the-badge&color=991b1b&label=profile+views)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:7f1d1d,100:0a0a0a&height=4&section=header" width="100%" alt="divider"/>
 
 ---
 
@@ -81,7 +74,7 @@ const afeef = {
 
 Co-founding engineer on model routing, evaluation, and production backends — **PostgreSQL**, **pgvector**, **LangChain-style** pipelines, and infrastructure that survives real traffic.
 
-[![Status](https://img.shields.io/badge/Status-In%20Development-0891b2?style=flat-square)](https://github.com/Afeef-crypto)
+[![Status](https://img.shields.io/badge/Status-In%20Development-7f1d1d?style=flat-square)](https://github.com/Afeef-crypto)
 [![YC](https://img.shields.io/badge/YC%20S26-Applicant-FF6600?style=flat-square&logo=ycombinator)](https://www.ycombinator.com)
 
 Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform work.
@@ -90,13 +83,11 @@ Also shipping as **Lead Engineer @ CloveCI** on adjacent product and platform wo
 <td width="50%" valign="top">
 
 ### PrepHelp
-**AI study platform — syllabus → structured learning**
+**Your smart noteshub for every semester**
 
-Built for real students and real syllabi: **PDF → structured JSON → pgvector** ingestion, **RAG** for exam prep, and pipelines you can dry-run and trust. Osmania University–aligned product story — the kind of benchmark problem that informs serious AI infra.
+[PrepHelp](https://www.prephelp.in/) is a **student resource platform**: upload **PDFs**, organize **notes**, and find answers **faster**—*designed for students, built for focus*. Enter your **roll number** and PrepHelp maps your **college, branch, and semester** so **MesmerAI** stays on **exam-relevant** material (not random web noise). Highlights: **MesmerAI Chat** (syllabus Q&A grounded in community uploads), **AI Tutor** (personalized to grades, backlogs, at-risk subjects), **Public Library**, **Chat with PDF**, **PDF Summariser**, and **Private Library** (encrypted vault). Browse the [Library](https://www.prephelp.in/study-material), [Labs](https://www.prephelp.in/labs), and [MesmerAI](https://www.prephelp.in/chat).
 
-[prephelp.in](https://www.prephelp.in/)
-
-[![Status](https://img.shields.io/badge/Status-Active-2ea043?style=flat-square)](https://www.prephelp.in/)
+[![Site](https://img.shields.io/badge/prephelp.in-live-7f1d1d?style=flat-square&logo=Safari&logoColor=white)](https://www.prephelp.in/)
 
 </td>
 </tr>
@@ -104,11 +95,10 @@ Built for real students and real syllabi: **PDF → structured JSON → pgvector
 <td width="50%" valign="top">
 
 ### Forklore
-**Writers’ companion MVP — collaborative storytelling**
+**Writers’ companion — collaborative storytelling**
 
 A platform where writers publish stories and readers create **forks** (alternate versions). Tracks fork trees, credit attribution, discovery, and AI-assisted writing. Stack highlights: **Vite + React + TypeScript**, **Tailwind + shadcn/ui**, **TipTap** editor, **Go** API gateway, **Node** BFF, **PostgreSQL**, **Redis**, **Pinecone** (embeddings roadmap).
 
-Project spec, **Sprint 1–14** timeline, and **repo layout** (`backend/` Go gateway, `frontend/` Vite+React+TS, Docker, PostgreSQL schema) live in the **Forklore** root `README` wherever you host that monorepo — link it here once the public repo is up.
 
 </td>
 <td width="50%" valign="top">
@@ -116,11 +106,11 @@ Project spec, **Sprint 1–14** timeline, and **repo layout** (`backend/` Go gat
 ### GRADE
 **Automated handwritten answer sheet grading**
 
-CV + NLP pipeline: ingest scanned sheets, segment questions, multi-tier OCR (cloud → PaddleOCR → TrOCR), then **Sentence-BERT** semantic scoring for partial credit and paraphrasing. **FastAPI** backend, **web dashboard** with score overlays, **PDF** reports — academic mini project @ MJCET.
+**v2 plan:** OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → PaddleOCR → TrOCR) with confidence semantics for downstream review. **PostgreSQL + pgvector** for answer-key embeddings and semantic retrieval; **LLM rubric scoring** (strict JSON schema, weighted factual / conceptual / reasoning / terminology dimensions, grading confidence + flags, prompt versioning for audit) replaces SBERT-only marks, with **Sentence-BERT** as an optional fallback. **FastAPI** backend, **React** dashboard with rubric-aware overlays, **PDF** reports — academic mini project @ MJCET.
 
 - [github.com/Afeef-crypto/GRADE](https://github.com/Afeef-crypto/GRADE)
 
-[![Repo](https://img.shields.io/badge/View-Repository-22d3ee?style=flat-square&logo=github)](https://github.com/Afeef-crypto/GRADE)
+[![Repo](https://img.shields.io/badge/View-Repository-b91c1c?style=flat-square&logo=github&logoColor=white)](https://github.com/Afeef-crypto/GRADE)
 
 </td>
 </tr>
@@ -147,19 +137,19 @@ CV + NLP pipeline: ingest scanned sheets, segment questions, multi-tier OCR (clo
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api?username=Afeef-crypto&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE" alt="GitHub stats" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Afeef-crypto&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=DC2626&text_color=E5E5E5&icon_color=EF4444" alt="GitHub stats" width="100%"/>
 </td>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Afeef-crypto&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Afeef-crypto&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=DC2626&text_color=E5E5E5" width="100%"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Afeef-crypto&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" alt="Streak stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Afeef-crypto&hide_border=true&background=0A0A0A&ring=DC2626&fire=B91C1C&currStreakLabel=F87171&sideLabels=737373&sideNums=E5E5E5&dates=737373&currStreakNum=F87171" alt="Streak stats"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Afeef-crypto&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=22D3EE&line=22D3EE&point=FFFFFF&area=true&area_color=22D3EE" alt="Contribution graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Afeef-crypto&hide_border=true&bg_color=0A0A0A&color=DC2626&line=B91C1C&point=F87171&area=true&area_color=450a0a" alt="Contribution graph"/>
 
 </div>
 
@@ -209,11 +199,11 @@ I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**
 
 ## Tech stack
 
-Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Generator** icons, and alternating **dividers** (thin rules + non–“lion” GIF accents from common profile templates). Peek banner GIF: [`.github/workflows/build-peek-gif.yml`](.github/workflows/build-peek-gif.yml).
+Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Generator** icons, and **black–red** thin rule dividers. Peek banner GIF: [`.github/workflows/build-peek-gif.yml`](.github/workflows/build-peek-gif.yml).
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2200&pause=550&color=22D3EE&center=true&vCenter=true&width=620&lines=Full+arsenal+below+%E2%86%93;Languages+%C2%B7+backends+%C2%B7+AI+%C2%B7+ML+%C2%B7+data+%C2%B7+DevOps+%C2%B7+cloud" alt="Tech stack intro typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2200&pause=550&color=EF4444&center=true&vCenter=true&width=620&lines=Full+arsenal+below+%E2%86%93;Languages+%C2%B7+backends+%C2%B7+AI+%C2%B7+ML+%C2%B7+data+%C2%B7+DevOps+%C2%B7+cloud" alt="Tech stack intro typing" />
 
 <br/>
 
@@ -230,13 +220,13 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,25:111827,50:1f2937,75:1e3a5f,100:0f766e&height=92&section=header&text=%E2%9F%A8%20LANGUAGES%20%26%20WEB%20%E2%9F%A9&fontSize=22&fontColor=5EEAD4&animation=fadeIn&fontAlignY=25" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,20:1a0505,45:450a0a,70:7f1d1d,100:991b1b&height=92&section=header&text=%E2%9F%A8%20LANGUAGES%20%26%20WEB%20%E2%9F%A9&fontSize=22&fontColor=F87171&animation=fadeIn&fontAlignY=25" width="100%"/>
 
 ### Languages & web
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=5EEAD4&center=true&vCenter=true&width=560&lines=C+%C2%B7+Java+%C2%B7+Python+%C2%B7+JavaScript+%C2%B7+HTML+%C2%B7+CSS;Vanilla+web+%2B+strong+typed+habits+%F0%9F%94%A7" alt="Languages typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=F87171&center=true&vCenter=true&width=560&lines=C+%C2%B7+Java+%C2%B7+Python+%C2%B7+JavaScript+%C2%B7+HTML+%C2%B7+CSS;Vanilla+web+%2B+strong+typed+habits+%F0%9F%94%A7" alt="Languages typing" />
 
 <br/>
 
@@ -244,15 +234,15 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:1a0505,100:991b1b&height=4&section=footer" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:00020a,10:01030a,20:020617,32:050a1a,44:0b1220,56:0f172a,68:172554,80:1e293b,90:1e3a8a,100:0e7490&text=%E2%9F%A8%20BACKEND%20%26%20APIS%20%E2%9F%A9&section=header&reversal=true&fontAlign=12&fontAlignY=42&animation=scaleIn&fontSize=22&fontColor=22D3EE" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:0a0a0a,15:171717,35:3f0d0d,55:5c0a0a,75:7f1d1d,100:b91c1c&text=%E2%9F%A8%20BACKEND%20%26%20APIS%20%E2%9F%A9&section=header&reversal=true&fontAlign=12&fontAlignY=42&animation=scaleIn&fontSize=22&fontColor=FCA5A5" width="100%"/>
 
 ### Backend & APIs
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=22D3EE&center=true&vCenter=true&width=560&lines=Java+%C2%B7+Python+%C2%B7+Django+%C2%B7+FastAPI+%C2%B7+REST;JavaScript+where+the+stack+needs+it" alt="Backend typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=FCA5A5&center=true&vCenter=true&width=560&lines=Java+%C2%B7+Python+%C2%B7+Django+%C2%B7+FastAPI+%C2%B7+REST;JavaScript+where+the+stack+needs+it" alt="Backend typing" />
 
 <br/>
 
@@ -265,15 +255,15 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:450a0a,100:dc2626&height=4&section=footer" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:03010a,10:07030f,20:0f061d,32:140b2a,44:1e1b4b,56:2e1065,68:3b0764,80:4c1d95,90:581c87,100:6366f1&height=92&section=header&text=%E2%9F%A8%20AI%20INFRASTRUCTURE%20%E2%9F%A9&fontSize=22&fontColor=E9D5FF&animation=twinkling&fontAlignY=25" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:1f0606,50:450a0a,75:7f1d1d,100:b91c1c&height=92&section=header&text=%E2%9F%A8%20AI%20INFRASTRUCTURE%20%E2%9F%A9&fontSize=22&fontColor=FECACA&animation=twinkling&fontAlignY=25" width="100%"/>
 
 ### AI infrastructure
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2100&pause=520&color=E9D5FF&center=true&vCenter=true&width=620&lines=OpenAI+%C2%B7+Claude+%C2%B7+Gemini+%C2%B7+LangChain+%C2%B7+Hugging+Face;Models+in+production%2C+not+just+notebooks" alt="AI typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2100&pause=520&color=FECACA&center=true&vCenter=true&width=620&lines=OpenAI+%C2%B7+Claude+%C2%B7+Gemini+%C2%B7+LangChain+%C2%B7+Hugging+Face;Models+in+production%2C+not+just+notebooks" alt="AI typing" />
 
 <br/>
 
@@ -285,13 +275,13 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:052e16,25:065f46,50:0f766e,75:14b8a6,100:5eead4&text=%E2%9F%A8%20ML%20%26%20DATA%20SCIENCE%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=42&animation=scaleIn&fontSize=20&fontColor=ECFEFF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:0a0a0a,20:1c1010,45:450a0a,70:7f1d1d,100:991b1b&text=%E2%9F%A8%20ML%20%26%20DATA%20SCIENCE%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=42&animation=scaleIn&fontSize=20&fontColor=FEE2E2" width="100%"/>
 
 ### Machine learning & data science
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=5EEAD4&center=true&vCenter=true&width=600&lines=PyTorch+%C2%B7+OpenCV+%C2%B7+pandas+%C2%B7+scikit-learn;CV+%2B+embeddings+%2B+classic+ML" alt="ML typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=2000&pause=500&color=F87171&center=true&vCenter=true&width=600&lines=PyTorch+%C2%B7+OpenCV+%C2%B7+pandas+%C2%B7+scikit-learn;CV+%2B+embeddings+%2B+classic+ML" alt="ML typing" />
 
 <br/>
 
@@ -304,13 +294,13 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,25:1e3a5f,50:0e7490,75:0891b2,100:22d3ee&height=92&section=header&text=%E2%9F%A8%20DATABASES%20%26%20VECTORS%20%E2%9F%A9&fontSize=21&fontColor=e0f2fe&animation=fadeIn&fontAlignY=25" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:1a0505,55:450a0a,80:7f1d1d,100:b91c1c&height=92&section=header&text=%E2%9F%A8%20DATABASES%20%26%20VECTORS%20%E2%9F%A9&fontSize=21&fontColor=FECACA&animation=fadeIn&fontAlignY=25" width="100%"/>
 
 ### Databases & vector search
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1900&pause=480&color=67E8F9&center=true&vCenter=true&width=580&lines=PostgreSQL+%C2%B7+MySQL+%C2%B7+pgvector+%C2%B7+Pinecone;Relational+%2B+vector+in+one+architecture" alt="Data typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1900&pause=480&color=F87171&center=true&vCenter=true&width=580&lines=PostgreSQL+%C2%B7+MySQL+%C2%B7+pgvector+%C2%B7+Pinecone;Relational+%2B+vector+in+one+architecture" alt="Data typing" />
 
 <br/>
 
@@ -323,7 +313,7 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:1a0505,100:991b1b&height=4&section=footer" width="100%"/>
 
 <img src="https://capsule-render.vercel.app/api?type=slice&height=70&color=0:7f1d1d,25:991b1b,50:dc2626,75:ef4444,100:fca5a5&text=%E2%9F%A8%20DEVOPS%20%26%20DELIVERY%20%E2%9F%A9&section=header&reversal=true&fontAlign=12&fontAlignY=42&animation=scaleIn&fontSize=22&fontColor=FEE2E2" width="100%"/>
 
@@ -339,15 +329,15 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:450a0a,100:dc2626&height=4&section=footer" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:431407,25:7c2d12,50:ca8a04,75:d97706,100:fbbf24&height=88&section=header&text=%E2%9F%A8%20CLOUD%20%E2%9F%A9&fontSize=22&fontColor=FFFBEB&animation=twinkling&fontAlignY=26" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,25:1a0505,50:450a0a,75:991b1b,100:dc2626&height=88&section=header&text=%E2%9F%A8%20CLOUD%20%E2%9F%A9&fontSize=22&fontColor=FECACA&animation=twinkling&fontAlignY=26" width="100%"/>
 
 ### Cloud
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1800&pause=450&color=FBBF24&center=true&vCenter=true&width=480&lines=Google+Cloud+%C2%B7+AWS;Managed+infra+where+it+pays+off" alt="Cloud typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1800&pause=450&color=F87171&center=true&vCenter=true&width=480&lines=Google+Cloud+%C2%B7+AWS;Managed+infra+where+it+pays+off" alt="Cloud typing" />
 
 <br/>
 
@@ -357,13 +347,13 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&height=68&color=0:18181b,25:27272a,50:3f3f46,75:52525b,100:a1a1aa&text=%E2%9F%A8%20DEV%20TOOLS%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=40&animation=fadeIn&fontSize=21&fontColor=f4f4f5" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&height=68&color=0:0a0a0a,25:171717,45:3f0d0d,65:7f1d1d,100:b91c1c&text=%E2%9F%A8%20DEV%20TOOLS%20%E2%9F%A9&section=header&reversal=false&fontAlign=88&fontAlignY=40&animation=fadeIn&fontSize=21&fontColor=FECACA" width="100%"/>
 
 ### Development tools
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1900&pause=480&color=A1A1AA&center=true&vCenter=true&width=520&lines=VS+Code+%C2%B7+Postman+%C2%B7+Notion;Notes%2C+APIs%2C+and+literate+debugging" alt="Tools typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=1900&pause=480&color=F87171&center=true&vCenter=true&width=520&lines=VS+Code+%C2%B7+Postman+%C2%B7+Notion;Notes%2C+APIs%2C+and+literate+debugging" alt="Tools typing" />
 
 <br/>
 
@@ -385,10 +375,10 @@ Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Gene
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2800&pause=1000&color=22D3EE&center=true&vCenter=true&width=480&lines=Open+to+collabs+and+interesting+builds.;Thanks+for+visiting+%E2%80%94+connect+on+LinkedIn!" alt="Footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2800&pause=1000&color=F87171&center=true&vCenter=true&width=480&lines=Open+to+collabs+and+interesting+builds.;Thanks+for+visiting+%E2%80%94+connect+on+LinkedIn!" alt="Footer typing" />
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,40:164e63,100:22d3ee&height=110&section=footer&fontColor=e0f2fe&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:1a0505,65:7f1d1d,100:b91c1c&height=110&section=footer&fontColor=FECACA&animation=twinkling"/>
 
 </div>
