@@ -1,4 +1,6 @@
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%"/>
+<div align="center">
+<img src="assets/banners/profile-peek-banner.png" alt="Mohammed Afeefuddin" width="680" />
+</div>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1e3a5f,70:0e7490,100:22d3ee&height=200&section=header&text=Mohammed%20Afeefuddin&fontSize=52&fontColor=e0f2fe&animation=twinkling&fontAlignY=32&desc=Tech%20Co-founder%20Engineer%20%E2%80%A2%20CS%20%40%20MJCET%20%E2%80%A2%20Hyderabad&descAlignY=54&descSize=16&descColor=67e8f9" width="100%"/>
