@@ -71,14 +71,13 @@ Co-founding engineer on model routing, evaluation, and production backends — *
 [![Status](https://img.shields.io/badge/Status-In%20Development-7f1d1d?style=flat-square)](https://github.com/Afeef-crypto)
 [![YC](https://img.shields.io/badge/YC%20S26-Applicant-FF6600?style=flat-square&logo=ycombinator)](https://www.ycombinator.com)
 
-
 </td>
 <td width="50%" valign="top">
 
 ### PrepHelp
 **Your smart noteshub for every semester**
 
-[PrepHelp](https://www.prephelp.in/) is a **student resource platform**: upload **PDFs**, organize **notes**, and find answers **faster**—*designed for students, built for focus*. Enter your **roll number** and PrepHelp maps your **college, branch, and semester** so **MesmerAI** stays on **exam-relevant** material (not random web noise). Highlights: **MesmerAI Chat** (syllabus Q&A grounded in community uploads), **AI Tutor** (personalized to grades, backlogs, at-risk subjects), **Public Library**, **Chat with PDF**, **PDF Summariser**, and **Private Library** (encrypted vault). Browse the [Library](https://www.prephelp.in/study-material), [Labs](https://www.prephelp.in/labs), and [MesmerAI](https://www.prephelp.in/chat).
+[PrepHelp](https://www.prephelp.in/) is a **student resource platform**: upload **PDFs**, organize **notes**, and find answers **faster**—*designed for students, built for focus*. Enter your **roll number** and PrepHelp maps your **college, branch, and semester** so **MesmerAI** stays on **exam-relevant** material (not random web noise). Highlights: **MesmerAI Chat** (syllabus Q&A grounded in community uploads), **AI Tutor** (personalized to grades, backlogs, at-risk subjects), **Public Library**, **Chat with PDF**, **PDF Summariser**, and **Private Library** (encrypted vault).
 
 [![Site](https://img.shields.io/badge/prephelp.in-live-7f1d1d?style=flat-square&logo=Safari&logoColor=white)](https://www.prephelp.in/)
 
@@ -178,11 +177,7 @@ Custom SVG cards refresh on a schedule via [`.github/workflows/update-stats.yml`
 Animated grid from [**Platane/snk**](https://github.com/Platane/snk), regenerated every six hours via [`.github/workflows/snake.yml`](.github/workflows/snake.yml) (SVGs live on the `output` branch).
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+<img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
 ---
