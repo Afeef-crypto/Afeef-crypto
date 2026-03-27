@@ -42,6 +42,17 @@ const afeef = {
     "Former Member — GDG On Campus MJCET",
   ],
   focus: ["Product engineering", "Startup execution", "Algorithms & problem solving"],
+  stack: {
+    languages: ["C", "Java", "Python", "JavaScript", "HTML", "CSS"],
+    frontend: ["HTML", "CSS", "JavaScript"],
+    backend: ["Java", "JavaScript", "Python", "Django", "REST APIs"],
+    ai: ["OpenAI", "Claude", "Gemini", "LangChain", "Hugging Face"],
+    ml: ["pandas", "scikit-learn", "OpenCV", "PyTorch"],
+    datastores: ["PostgreSQL", "MySQL", "pgvector", "Pinecone"],
+    devops: ["Docker", "Kubernetes", "GitHub Actions", "Git"],
+    tools: ["VS Code", "Postman", "Notion"],
+    cloud: ["Google Cloud", "AWS"],
+  },
 };
 ```
 
@@ -83,13 +94,109 @@ const afeef = {
 
 ---
 
-## Tech I work with
+## Quick tech overview
+
+I work across **full-stack web**, **APIs**, and **AI/ML**. On the client I use **HTML**, **CSS**, and **JavaScript**. On the server I build with **Java**, **JavaScript**, **Python**, and **Django**, exposing well-structured **REST APIs**. For **AI infrastructure** I integrate **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, and **Hugging Face**. For **machine learning & data science** I reach for **pandas**, **scikit-learn**, **OpenCV**, and **PyTorch**. Data tends to live in **PostgreSQL** (with **pgvector** where embeddings matter), **MySQL**, and **Pinecone** for vector search. I operate services with **Docker**, **Kubernetes**, **GitHub Actions**, and **Git**; day-to-day I use **VS Code**, **Postman**, and **Notion**; deployments and managed services lean on **Google Cloud** and **AWS**.
+
+---
+
+## Tech stack
+
+### Languages & web
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,react,nodejs,git,docker,postgres&theme=dark" alt="Skills" />
+<img src="https://skillicons.dev/icons?i=c,java,python,javascript,html,css&theme=dark" alt="Languages" />
 
-<sub>Swap or extend icons at <a href="https://skillicons.dev">skillicons.dev</a> to match your stack.</sub>
+</div>
+
+### Frontend
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,javascript&theme=dark" alt="Frontend" />
+
+<sub>HTML · CSS · JavaScript</sub>
+
+</div>
+
+### Backend
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,python,django&theme=dark" alt="Backend" />
+
+<br/>
+
+![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript_backend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+</div>
+
+### AI infrastructure
+
+<div align="center">
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
+
+</div>
+
+### Machine learning & data science
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" alt="PyTorch" />
+
+<br/>
+
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+</div>
+
+### Databases & vector search
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark" alt="SQL databases" />
+
+<br/>
+
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
+
+</div>
+
+### DevOps & delivery
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,githubactions&theme=dark" alt="DevOps" />
+
+</div>
+
+### Cloud
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=gcp,aws&theme=dark" alt="Cloud" />
+
+<sub>Google Cloud · AWS</sub>
+
+</div>
+
+### Development tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=vscode,postman&theme=dark" alt="IDE and API client" />
+
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 </div>
 
