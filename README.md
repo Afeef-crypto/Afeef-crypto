@@ -133,11 +133,7 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 ## Competitive programming
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,20:1a0505,45:450a0a,70:7f1d1d,100:991b1b&height=92&section=header&text=%E2%9F%A8%20COMPETITIVE%20PROGRAMMING%20%E2%9F%A9&fontSize=22&fontColor=F87171&animation=fadeIn&fontAlignY=25" width="100%" alt="Competitive programming header"/>
-
 ### Problem solving & contests
-
-**PNG** cards (not SVG): GitHub’s profile README often **blocks external SVG** in `<img>` (e.g. leetcard, raw `.svg`). These render from **`main`** via `raw.githubusercontent.com`. Data comes from LeetCode in CI; palette matches the **dark red** theme. Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/). Refresh: [**Profile README assets**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/profile-readme-assets.yml).
-
 <div align="center">
 <table width="100%" cellpadding="8">
 <tr>
@@ -162,11 +158,7 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 ## Contribution snake
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:1f0606,50:450a0a,75:7f1d1d,100:b91c1c&height=92&section=header&text=%E2%9F%A8%20CONTRIBUTION%20SNAKE%20%E2%9F%A9&fontSize=22&fontColor=FECACA&animation=twinkling&fontAlignY=25" width="100%" alt="Contribution snake header"/>
-
 ### Animated grid (dark · red snake)
-
-[**Platane/snk**](https://github.com/Platane/snk) builds a **crimson contribution grid** and a **red snake** (`#EF4444`). The **GIF** below is what usually works on **profile READMEs**; raw **SVG** is often blocked or looks like an empty grid in `<img>`. Refresh: [**Generate contribution snake**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml).
-
 <p align="center">
   <a href="https://github.com/Afeef-crypto">
     <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif" width="100%" alt="GitHub contribution snake (animated)" title="Contribution snake — dark red grid, animated GIF (hover for this tooltip)" />
