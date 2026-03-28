@@ -1,53 +1,46 @@
+# Animated snake as GIF + SVG (red / dark theme). GIF is what actually shows on many profile READMEs.
 name: Generate contribution snake
 
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-snake
+  group: afeef-profile-snake
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # svg-only = Node action (no Docker). Full Platane/snk@v3 often fails when the
-      # docker image pull or GIF pipeline errors on GitHub-hosted runners.
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake (dark red snake + crimson grid)
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=%23B91C1C&color_dots=%23f5f5f5,%23fecaca,%23f87171,%23ef4444,%23991b1b
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23EF4444&color_dots=%230a0a0a,%231a0505,%23450a0a,%23991b1b,%23dc2626
+            dist/github-contribution-grid-snake-dark.gif?palette=github-dark&color_snake=%23EF4444&color_dots=%230a0a0a,%231a0505,%23450a0a,%23991b1b,%23dc2626
 
-      - name: Copy into assets/snake
+      - name: Copy into assets/snake on main
         run: |
           mkdir -p assets/snake
-          cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg assets/snake/
-
-      - name: Install rsvg-convert
-        run: sudo apt-get update -qq && sudo apt-get install -y librsvg2-bin
-
-      # SVG in README <img> is often blocked; PNG shows the first rasterized frame (static grid).
-      - name: Rasterize dark snake SVG to PNG
-        run: |
-          rsvg-convert -w 880 "assets/snake/github-contribution-grid-snake-dark.svg" \
-            -o "assets/snake/github-contribution-grid-snake-dark.png"
+          cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg dist/github-contribution-grid-snake-dark.gif assets/snake/
 
       - name: Commit snake assets if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update contribution snake assets [skip ci]"
+          commit_message: "chore: update contribution snake [skip ci]"
           file_pattern: "assets/snake/*"

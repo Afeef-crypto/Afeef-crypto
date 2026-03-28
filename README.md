@@ -132,29 +132,50 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 ## Competitive programming
 
-<!-- LEETCODE-MAIN:START -->
-<div align="center">
-  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
-    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_main.png" alt="LeetCode main stats" width="520" />
-  </a>
-</div>
-<!-- LEETCODE-MAIN:END -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,20:1a0505,45:450a0a,70:7f1d1d,100:991b1b&height=92&section=header&text=%E2%9F%A8%20COMPETITIVE%20PROGRAMMING%20%E2%9F%A9&fontSize=22&fontColor=F87171&animation=fadeIn&fontAlignY=25" width="100%" alt="Competitive programming header"/>
 
-<!-- LEETCODE-CONTESTS:START -->
+### Problem solving & contests
+
+**PNG** cards (not SVG): GitHub’s profile README often **blocks external SVG** in `<img>` (e.g. leetcard, raw `.svg`). These render from **`main`** via `raw.githubusercontent.com`. Data comes from LeetCode in CI; palette matches the **dark red** theme. Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/). Refresh: [**Profile README assets**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/profile-readme-assets.yml).
+
 <div align="center">
-  <a href="https://leetcode.com/u/mohammed_afeefuddin/">
-    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_contests.png" alt="LeetCode contests" width="520" />
-  </a>
+<table width="100%" cellpadding="8">
+<tr>
+<td width="50%" valign="top">
+<a href="https://leetcode.com/u/mohammed_afeefuddin/">
+<img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_main.png" width="100%" alt="LeetCode main stats" />
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://leetcode.com/u/mohammed_afeefuddin/">
+<img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/cards/lc_contests.png" width="100%" alt="LeetCode contests" />
+</a>
+</td>
+</tr>
+</table>
 </div>
-<!-- LEETCODE-CONTESTS:END -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:1a0505,100:991b1b&height=4&section=footer" width="100%" alt=""/>
 
 ---
 
 ## Contribution snake
 
-<p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.png" alt="GitHub contribution snake" width="880" /></p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,25:1f0606,50:450a0a,75:7f1d1d,100:b91c1c&height=92&section=header&text=%E2%9F%A8%20CONTRIBUTION%20SNAKE%20%E2%9F%A9&fontSize=22&fontColor=FECACA&animation=twinkling&fontAlignY=25" width="100%" alt="Contribution snake header"/>
 
-<sub>Animated: [`github-contribution-grid-snake-dark.svg`](assets/snake/github-contribution-grid-snake-dark.svg) · README raster: [`github-contribution-grid-snake-dark.png`](assets/snake/github-contribution-grid-snake-dark.png)</sub>
+### Animated grid (dark · red snake)
+
+[**Platane/snk**](https://github.com/Platane/snk) builds a **crimson contribution grid** and a **red snake** (`#EF4444`). The **GIF** below is what usually works on **profile READMEs**; raw **SVG** is often blocked or looks like an empty grid in `<img>`. Refresh: [**Generate contribution snake**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml).
+
+<p align="center">
+  <a href="https://github.com/Afeef-crypto">
+    <img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.gif" width="100%" alt="GitHub contribution snake (animated)" title="Contribution snake — dark red grid, animated GIF (hover for this tooltip)" />
+  </a>
+</p>
+
+<sub>Vector (may not render in all README views): <a href="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.svg"><code>github-contribution-grid-snake-dark.svg</code></a></sub>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:450a0a,100:dc2626&height=4&section=footer" width="100%" alt=""/>
 
 ---
 

@@ -1,0 +1,53 @@
+# LeetCode cards as PNG on main — GitHub profile README often blocks external SVG in <img>.
+name: Profile README assets
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/cards/**"
+      - "assets/snake/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install rsvg-convert
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y librsvg2-bin
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate LeetCode card SVGs
+        run: |
+          pip install --disable-pip-version-check -q requests
+          python scripts/update_readme.py
+
+      - name: Rasterize LeetCode cards to PNG
+        run: |
+          rsvg-convert -w 520 "assets/cards/lc_main.svg" -o "assets/cards/lc_main.png"
+          rsvg-convert -w 520 "assets/cards/lc_contests.svg" -o "assets/cards/lc_contests.png"
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile readme PNG assets [skip ci]"
+          file_pattern: "assets/cards/*.png assets/cards/*.svg"
