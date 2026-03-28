@@ -164,7 +164,7 @@ Grid via [**Platane/snk**](https://github.com/Platane/snk) (**SVG** in repo; **P
 
 ## Quick tech overview
 
-I work across **AI/ML** and full-stack systems. On the client: **HTML**, **CSS**, **JavaScript**. On the server: **Python** (**Django**, **FastAPI**), **Java**, and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
+I work across **AI/ML**  systems. On the client: **HTML**, **CSS**, **JavaScript**. On the server: **Python** (**Django**, **FastAPI**), and **REST APIs**. For **AI infrastructure**: **OpenAI**, **Anthropic Claude**, **Google Gemini**, **LangChain**, **Hugging Face**. For **ML & data**: **pandas**, **scikit-learn**, **OpenCV**, **PyTorch**. Data: **PostgreSQL** (**pgvector**), **MySQL**, **Pinecone**. Delivery: **Docker**, **Kubernetes**, **GitHub Actions**, **Git**. Cloud: **Google Cloud**, **AWS**.
 
 ---
 
