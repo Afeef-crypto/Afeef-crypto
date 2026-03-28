@@ -132,8 +132,6 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 
 ## Competitive programming
 
-**PNG** cards (from SVG via CI) update on a schedule via [**Update LeetCode stats**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/update-stats.yml) — GitHub often blocks **SVG** in README `<img>`. Profile: [**mohammed_afeefuddin**](https://leetcode.com/u/mohammed_afeefuddin/).
-
 <!-- LEETCODE-MAIN:START -->
 <div align="center">
   <a href="https://leetcode.com/u/mohammed_afeefuddin/">
@@ -153,8 +151,6 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
 ---
 
 ## Contribution snake
-
-Grid via [**Platane/snk**](https://github.com/Platane/snk) (**SVG** in repo; **PNG** below for README — GitHub blocks many SVG `<img>` loads). [**Run the workflow**](https://github.com/Afeef-crypto/Afeef-crypto/actions/workflows/snake.yml) to refresh. CI: **`Platane/snk/svg-only@v3`** + `rsvg-convert` → PNG.
 
 <p align="center"><img src="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.png" alt="GitHub contribution snake" width="880" /></p>
 
