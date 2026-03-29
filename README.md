@@ -14,14 +14,14 @@
 </pre>
 
 ### · AI systems · Founder · CS @ MJCET · Hyderabad
-
+<!--
 <div align="center">
 <img src="assets/banners/profile-peek-banner.gif" alt="Mohammed Afeefuddin" width="640" />
 
 </div>
 
 <br/>
-
+-->
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Afeef--crypto-181717?style=for-the-badge&logo=github)](https://github.com/Afeef-crypto)
