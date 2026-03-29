@@ -165,8 +165,6 @@ OpenCV ingest and region segmentation, then multi-tier **OCR/HTR** (cloud → Pa
   </a>
 </p>
 
-<sub>Vector (may not render in all README views): <a href="https://raw.githubusercontent.com/Afeef-crypto/Afeef-crypto/main/assets/snake/github-contribution-grid-snake-dark.svg"><code>github-contribution-grid-snake-dark.svg</code></a></sub>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:450a0a,100:dc2626&height=4&section=footer" width="100%" alt=""/>
 
 ---
@@ -184,8 +182,6 @@ I work across **AI/ML**  systems. On the client: **HTML**, **CSS**, **JavaScript
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2200&pause=550&color=EF4444&center=true&vCenter=true&width=620&lines=Full+arsenal+below+%E2%86%93;Languages+%C2%B7+backends+%C2%B7+AI+%C2%B7+ML+%C2%B7+data+%C2%B7+DevOps+%C2%B7+cloud" alt="Tech stack intro typing" />
 
 <br/>
-
-<sub>Animated icons · <a href="https://techstack-generator.vercel.app/">Tech Stack Generator</a></sub><br/>
 
 <img src="https://techstack-generator.vercel.app/java-icon.svg" width="68" height="68" alt="Java" />
 <img src="https://techstack-generator.vercel.app/python-icon.svg" width="68" height="68" alt="Python" />
