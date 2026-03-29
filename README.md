@@ -179,8 +179,6 @@ I work across **AI/ML**  systems. On the client: **HTML**, **CSS**, **JavaScript
 
 ## Tech stack
 
-Rich layout: **capsule-render** headers, **typing SVG** lines, **Tech Stack Generator** icons, and **black–red** thin rule dividers. Peek banner GIF: [`.github/workflows/build-peek-gif.yml`](.github/workflows/build-peek-gif.yml).
-
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2200&pause=550&color=EF4444&center=true&vCenter=true&width=620&lines=Full+arsenal+below+%E2%86%93;Languages+%C2%B7+backends+%C2%B7+AI+%C2%B7+ML+%C2%B7+data+%C2%B7+DevOps+%C2%B7+cloud" alt="Tech stack intro typing" />
