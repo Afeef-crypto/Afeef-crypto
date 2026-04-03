@@ -40,7 +40,7 @@ jobs:
           cp -v dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg dist/github-contribution-grid-snake-dark.gif assets/snake/
 
       - name: Commit snake assets if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update contribution snake [skip ci]"
           file_pattern: "assets/snake/*"
