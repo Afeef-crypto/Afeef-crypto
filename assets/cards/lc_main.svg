@@ -7,13 +7,13 @@
 <text x="18" y="24" font-size="11" fill="#a3a3a3" font-weight="600" letter-spacing="1.5" class="mono">LEETCODE  ›  MAIN</text>
 <text x="477" y="24" font-size="11" fill="#f87171" font-weight="600" text-anchor="end" class="mono">@mohammed_afeefuddin</text>
 <line x1="0" y1="38" x2="495" y2="38" stroke="#7f1d1d"/>
-<circle cx="82" cy="103" r="54" fill="none" stroke="#3f1f1f" stroke-width="10"/><circle cx="82" cy="103" r="54" fill="none" stroke="#f87171" stroke-width="10" stroke-dasharray="10.28 329.02" stroke-linecap="round" transform="rotate(-90 82 103)"/>
-<circle cx="82" cy="103" r="40" fill="none" stroke="#3f1f1f" stroke-width="4"/><circle cx="82" cy="103" r="40" fill="none" stroke="#86efac" stroke-width="4" stroke-dasharray="165.97 85.36" stroke-linecap="round" transform="rotate(-90 82 103)"/>
-<text x="82" y="97" text-anchor="middle" font-size="21" font-weight="700" fill="#fecaca" class="mono">106</text>
+<circle cx="82" cy="103" r="54" fill="none" stroke="#3f1f1f" stroke-width="10"/><circle cx="82" cy="103" r="54" fill="none" stroke="#f87171" stroke-width="10" stroke-dasharray="10.37 328.92" stroke-linecap="round" transform="rotate(-90 82 103)"/>
+<circle cx="82" cy="103" r="40" fill="none" stroke="#3f1f1f" stroke-width="4"/><circle cx="82" cy="103" r="40" fill="none" stroke="#86efac" stroke-width="4" stroke-dasharray="166.77 84.56" stroke-linecap="round" transform="rotate(-90 82 103)"/>
+<text x="82" y="97" text-anchor="middle" font-size="21" font-weight="700" fill="#fecaca" class="mono">107</text>
 <text x="82" y="115" text-anchor="middle" font-size="9" fill="#a3a3a3" letter-spacing="1" class="mono">SOLVED</text>
-<text x="168" y="55" font-size="10" fill="#a3a3a3" class="mono">Easy</text><rect x="168" y="60" width="268" height="8" rx="4" fill="#3f1f1f"/><rect x="168" y="60" width="177.0" height="8" rx="4" fill="#86efac"/><text x="444" y="68" font-size="10" fill="#fecaca" font-weight="600" class="mono">70</text>
-<text x="168" y="93" font-size="10" fill="#a3a3a3" class="mono">Medium</text><rect x="168" y="98" width="268" height="8" rx="4" fill="#3f1f1f"/><rect x="168" y="98" width="68.3" height="8" rx="4" fill="#fbbf24"/><text x="444" y="106" font-size="10" fill="#fecaca" font-weight="600" class="mono">27</text>
-<text x="168" y="131" font-size="10" fill="#a3a3a3" class="mono">Hard</text><rect x="168" y="136" width="268" height="8" rx="4" fill="#3f1f1f"/><rect x="168" y="136" width="22.8" height="8" rx="4" fill="#dc2626"/><text x="444" y="144" font-size="10" fill="#fecaca" font-weight="600" class="mono">9</text>
+<text x="168" y="55" font-size="10" fill="#a3a3a3" class="mono">Easy</text><rect x="168" y="60" width="268" height="8" rx="4" fill="#3f1f1f"/><rect x="168" y="60" width="177.8" height="8" rx="4" fill="#86efac"/><text x="444" y="68" font-size="10" fill="#fecaca" font-weight="600" class="mono">71</text>
+<text x="168" y="93" font-size="10" fill="#a3a3a3" class="mono">Medium</text><rect x="168" y="98" width="268" height="8" rx="4" fill="#3f1f1f"/><rect x="168" y="98" width="67.6" height="8" rx="4" fill="#fbbf24"/><text x="444" y="106" font-size="10" fill="#fecaca" font-weight="600" class="mono">27</text>
+<text x="168" y="131" font-size="10" fill="#a3a3a3" class="mono">Hard</text><rect x="168" y="136" width="268" height="8" rx="4" fill="#3f1f1f"/><rect x="168" y="136" width="22.5" height="8" rx="4" fill="#dc2626"/><text x="444" y="144" font-size="10" fill="#fecaca" font-weight="600" class="mono">9</text>
 <line x1="0" y1="165" x2="495" y2="165" stroke="#7f1d1d"/>
 <text x="18" y="183" font-size="10" fill="#a3a3a3" class="mono">leetcode.com/u/mohammed_afeefuddin</text>
 </svg>
